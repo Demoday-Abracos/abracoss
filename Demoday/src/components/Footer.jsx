@@ -1,36 +1,44 @@
-
-
 function Footer() {
-    return(
+    return (
         <footer>
-            <div className="img-footer">
-                <img className="logo-central" src="assets/images/Logo2x.png" alt="Logo" />
-
-                <div className="logos">
-                    <img src="assets/images/facebook.png" alt="logo do facebook" />
-                    <img src="assets/images/insta.png" alt="logo do instagram" />
-                    <img src="assets/images/linkedin.png" alt="logo do linkedin" />
-                    <img src="assets/images/whats.png" alt="logo do whatsapp" />
+            <div className="footer-container">
+                <div className="footer-logo">
+                    <img className="logo-central" src="assets/images/Logo2x.png" alt="Logo" />
+                    <div className="logos">
+                        <img src="assets/images/facebook.png" alt="Facebook logo" />
+                        <img src="assets/images/insta.png" alt="Instagram logo" />
+                        <img src="assets/images/linkedin.png" alt="LinkedIn logo" />
+                        <img src="assets/images/whats.png" alt="WhatsApp logo" />
+                    </div>
                 </div>
-                
+
+                <div className="footer-links">
+                    <h3>ABRAÇOS</h3>
+                    <ul>
+                        <li>Home</li>
+                        <li>Documentação</li>
+                        <li>Psicólogos</li>
+                        <li>Cursos</li>
+                        <li>Empregabilidade</li>
+                    </ul>
+                </div>
+
+                <div className="footer-contacts">
+                    <h3>CONTATOS</h3>
+                    <ul>
+                        <li>Fale conosco</li>
+                        <li>FAQ</li>
+                    </ul>
+                    
+                </div>
+                <img className="footer-image" src="assets/images/desenho-footer.png" alt="Pessoas" />
             </div>
-            <div className="nomes-footer">
-                <h2>ABRAÇOS</h2>
-                <p>Home</p>
-                <p>Documentação</p>
-                <p>Psicológos</p>
-                <p>Cursos</p>
-                <p>Empregabilidade</p>
-            </div>
-            <div className="nomes-footer">
-                <h2>CONTATOS</h2>
-                <p>Fale conosco</p>
-                <p>FAQ</p>
-            </div>
-            <div>
-                <img src="assets/images/desenho-footer.png" alt="" />
+
+            <div className="footer-bottom">
+                <p>Copyright &copy; 2024 Abraços. Todos os direitos reservados.</p>
             </div>
         </footer>
-    )
+    );
 }
-export default Footer
+
+export default Footer;
