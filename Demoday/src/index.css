@@ -2,9 +2,14 @@
   --primary-color: #FF6926;
   --secondary-color: #202124;
 }
+@font-face {
+  font-family: "Poppins";
+  src: url(../public/assets/Poppins/Poppins-Regular.ttf);
+}
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }

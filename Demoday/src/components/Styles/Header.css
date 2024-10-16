@@ -2,12 +2,42 @@
     padding: 0;
     margin: 0;
 }
-
-.logo{
-    background: var(--secondary-color);
+header {
+    display: flex;
+    background-color: var(--secondary-color);
+    align-items: center;
+    justify-content: space-between;
     height: 100px;
 }
-
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
 .logo img{
-    max-width: 150px;
+    max-width: 220px;
+}
+.area_cadastro {
+    display: flex;
+    color: #fff;
+    width: 200px;
+    gap: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    width: 180%;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.login {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
 }
