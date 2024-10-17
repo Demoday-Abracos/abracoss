@@ -40,7 +40,7 @@ const Counter = ({ endValue, text }) => {
         const handleScroll = () => {
             if (counterRef.current && isElementInViewport(counterRef.current) && !isVisible) {
                 setIsVisible(true);
-                animateCounter(0, endValue, 2000); // 2000ms = 2 segundos para a contagem
+                animateCounter(0, endValue, 2000); 
             }
         };
 
