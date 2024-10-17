@@ -81,3 +81,27 @@
 .next-btn {
     margin-left: 10px;
 }
+.teste {
+    margin: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.teste div {
+    background-color: var(--primary-color);
+    padding: 50px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+}
+.teste div h1{ 
+    font-size: 3em;
+}
+
+.baix2 {
+    background: url(../../../public/assets/images/Img-fundo.svg) no-repeat;
+    background-size: cover;
+    width: 900px;
+    height: 950px;
+}

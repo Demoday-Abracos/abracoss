@@ -11,7 +11,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 .footer-logo {
@@ -21,13 +21,13 @@ footer {
 }
 
 .logo-central {
-    width: 155px;
+    width: 165px;
     margin-bottom: 20px;
 }
 
 .logos {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .logos img {
@@ -58,12 +58,16 @@ footer {
 }
 
 .footer-contacts  {
+    margin-top: 20px;
     width: 120px;
+}
+.footer-links {
+    margin-top: 20px;
 }
 
 .footer-bottom {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 10px;
     border-top: 3px solid #fff;
 }
@@ -79,7 +83,7 @@ footer {
 
 /*Final*/
 
-/*Parte dos cards*/
+/*Parte dos cards da home*/
 .sec-principal {
     display: flex;
     flex-direction: column;
@@ -101,4 +105,9 @@ footer {
 .h1-principal {
     margin-top: 1.5em;
     text-align: center;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
