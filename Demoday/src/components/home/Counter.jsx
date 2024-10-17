@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './Styles/Counter.css';
+import '../Styles/Counter.css';
 
 const Counter = ({ endValue, text }) => {
     const [isVisible, setIsVisible] = useState(false);
     const [count, setCount] = useState(0);
     const counterRef = useRef(null);
 
-    // Função para detectar se o elemento está no viewport
+    // verificação para detectar se o elemento está no viewport
     const isElementInViewport = (el) => {
         const rect = el.getBoundingClientRect();
         return (
@@ -17,7 +17,7 @@ const Counter = ({ endValue, text }) => {
         );
     };
 
-    // Função para animar a contagem
+    // para animar a contagem
     const animateCounter = (start, end, duration) => {
         let startTime = null;
 
@@ -36,7 +36,7 @@ const Counter = ({ endValue, text }) => {
     };
 
     useEffect(() => {
-        // Função para verificar se o elemento está visível ao rolar a página
+        // verificar se o elemento está visível ao rolar a página
         const handleScroll = () => {
             if (counterRef.current && isElementInViewport(counterRef.current) && !isVisible) {
                 setIsVisible(true);

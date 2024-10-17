@@ -10,10 +10,12 @@ header {
     justify-content: space-between;
     height: 100px;
 }
-
-.nav-link {
+a {
     color: white;
     text-decoration: none;
+}
+
+.nav-link {
     position: relative;
     padding: 10px;
     display: inline-block;

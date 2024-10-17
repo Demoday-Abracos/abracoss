@@ -1,4 +1,4 @@
-import './Styles/Testemunhas.css'
+import '../Styles/Testemunhas.css'
 
 function AreaRefugio() {
     return(

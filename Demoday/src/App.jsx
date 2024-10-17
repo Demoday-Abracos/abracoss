@@ -1,25 +1,23 @@
-import Counter from './components/Counter'
-import './App.css'
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Testemunhas from './components/Testemunhas'
-import AreaRefugio from './components/AreaRefugio'
-function App() {
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import './App.css';
+import Header from './components/home/Header';
+import Psicologos from './components/psicologos/Psicologos';
+import Footer from './components/home/Footer';
+import Home from './components/home/Home';
+function App() {
   return (
     <>
-      <Header />
-      <Testemunhas/>
-      <main>
-        <Counter endValue={67} text="Nacionalidades atendidas" />
-        <Counter endValue={1000} text="Atendimentos em 2024" />
-        <Counter endValue={1200} text="Alunos de português" />
-      </main>
-      <AreaRefugio/>
-      <Footer/>
-      
+      <Router>
+        <Header />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='Psicologos' element={<Psicologos />} />
+        </Routes>
+        <Footer />
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
