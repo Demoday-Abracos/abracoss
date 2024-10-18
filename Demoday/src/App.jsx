@@ -5,6 +5,7 @@ import Header from './components/home/Header';
 import Psicologos from './components/psicologos/Psicologos';
 import Footer from './components/home/Footer';
 import Home from './components/home/Home';
+import Cards from './components/cards/Cards';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='cards' element={<Cards />} />
           <Route path='Psicologos' element={<Psicologos />} />
         </Routes>
         <Footer />
