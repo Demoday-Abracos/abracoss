@@ -1,26 +1,12 @@
-import './styles/Header.css'
+import Testemunhas from "./Testemunhas"
+import Counter from "./Counter"
+import AreaRefugio from "./AreaRefugio"
+import Slide from "./Slide"
 
-function Header() {
-
-    return (
+function Home() {
+    return(
         <>
-            <header>
-                <div className="logo">
-                    <a href="#"><img src="assets/images/Logo.png" alt="Logo" /></a>
-                </div>
-                <nav>
-                    <a href="#" className='nav-link'>Home</a>
-                    <a href="#" className='nav-link'>Psicológos</a>
-                    <a href="#" className='nav-link'>Cursos</a>
-                    <a href="#" className='nav-link'>Cards</a>
-                    <a href="#" className='nav-link'>Documentação</a>
-                    <a href="#" className='nav-link'>Sobre</a>
-                </nav>
-                <div className='area_cadastro'>
-                    <div className='login'>Login</div>
-                    <div className='cadastro'>Cadastre-se</div>
-                </div>
-            </header>
+        <Slide imagens='assets/images/insta.png' ></Slide>
             <section className='sec-principal'>
                 <h1 className='h1-principal'>Explore nossas categorias: </h1>
                 <div className='gifs-home'>
@@ -40,7 +26,14 @@ function Header() {
                     <p>Oferecemos apoio para sua saúde mental, promovendo bem-estar e equilíbrio.</p>
                 </div>
             </section>
+            <Testemunhas></Testemunhas>
+            <main>
+                <Counter endValue={67} text="Nacionalidades atendidas" />
+                <Counter endValue={1000} text="Atendimentos em 2024" />
+                <Counter endValue={1200} text="Alunos de português" />
+            </main>
+            <AreaRefugio></AreaRefugio>
         </>
     )
 }
-export default Header
+export default Home
