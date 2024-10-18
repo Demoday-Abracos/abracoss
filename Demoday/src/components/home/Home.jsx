@@ -1,12 +1,12 @@
 import Testemunhas from "./Testemunhas"
 import Counter from "./Counter"
 import AreaRefugio from "./AreaRefugio"
-import Slide from "./Slide" // Verifique se o caminho é este mesmo
+import Slide from "./Slide"
 
 function Home() {
     return(
         <>
-        <Slide></Slide>
+        <Slide imagens='assets/images/insta.png' ></Slide>
             <section className='sec-principal'>
                 <h1 className='h1-principal'>Explore nossas categorias: </h1>
                 <div className='gifs-home'>
