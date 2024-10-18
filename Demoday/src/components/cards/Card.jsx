@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const Card = ({ image, label }) => {
     return (
@@ -10,7 +10,7 @@ const Card = ({ image, label }) => {
                     <span className="default-icon">{label}</span>
                 )}
             </div>
-            <div>{label}</div>
+            <h1>{label}</h1>
         </div>
     );
 };
