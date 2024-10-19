@@ -1,10 +1,9 @@
 import '../../Styles/CardCarrousel.css'
 
-function Cards2({icon, text, titulo}) {
+function Cards2({icon, text}) {
     return(
         <>
             <div>
-                <h1>{titulo}</h1>
                 <div className='img-cards'>
                     <img src={icon} alt="" />
                     <h3>{text}</h3>

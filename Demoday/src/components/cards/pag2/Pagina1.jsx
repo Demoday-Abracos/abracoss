@@ -1,92 +1,103 @@
 import React from 'react';
 import '../../Styles/CardCarrousel.css';
 import Cards2 from './Cards2';
-function Pagina1() {
-    const [condicional, setcondicional] = React.useState({'Hospital':true, 'Mercado': true})
+import { useLocation } from 'react-router-dom';
 
-    function mudarCondicao(e){
-        console.log(e.target.getAttribute('name'));
-        setcondicional((prevcondicao) => {return {... prevcondicao, 'Hospital': ! prevcondicao.Hospital }})
+function Pagina1() {
+    const location = useLocation();
+    const [categoriaSelecionada, setCategoriaSelecionada] = React.useState(location.state?.categoriaSelecionada || 'Hospital');
+
+    function mudarCondicao(e) {
+        setCategoriaSelecionada(e.target.getAttribute('name'));
     }
 
-    
-    return(
+    return (
         <>
             <div className="img-fundo">
-                <h1 style={{color: '#fff'}}>Conecte-se de forma rápida e <br /> simples em qualquer idioma.</h1>
+                <h1 style={{ color: '#fff' }}>Conecte-se de forma rápida e <br /> simples em qualquer idioma.</h1>
             </div>
             <div className='button'>
-                <button onClick={mudarCondicao} className='hospital'>Hospital</button>
-                <button>mercado</button>
-                <button>transporte </button>
-                <button>alimentação</button>
-                <button>Banco</button>
-                <button>Polícia</button>
-                <button>Compras</button>
-                <button>Escola</button>
-                <button>Compras</button>
+                <button onClick={mudarCondicao} name='Hospital' className={categoriaSelecionada === 'Hospital' ? 'selecionado' : ''}>Hospital</button>
+                <button onClick={mudarCondicao} name='Mercado' className={categoriaSelecionada === 'Mercado' ? 'selecionado' : ''}>Mercado</button>
+                <button onClick={mudarCondicao} name='Transporte' className={categoriaSelecionada === 'Transporte' ? 'selecionado' : ''}>Transporte</button>
+                <button onClick={mudarCondicao} name='Alimentacao' className={categoriaSelecionada === 'Alimentacao' ? 'selecionado' : ''}>Alimentação</button>
+                <button onClick={mudarCondicao} name='Banco' className={categoriaSelecionada === 'Banco' ? 'selecionado' : ''}>Banco</button>
+                <button onClick={mudarCondicao} name='Policia' className={categoriaSelecionada === 'Policia' ? 'selecionado' : ''}>Polícia</button>
+                <button onClick={mudarCondicao} name='Compras' className={categoriaSelecionada === 'Compras' ? 'selecionado' : ''}>Compras</button>
+                <button onClick={mudarCondicao} name='Escola' className={categoriaSelecionada === 'Escola' ? 'selecionado' : ''}>Escola</button>
             </div>
-            {condicional.Hospital && <> <div className='titulo-card'>
-                <h1>Hospital</h1>
-            </div>
-            <section className='Sobre-cards'>
-                
-                <Cards2  icon='assets/images/localCards.png' text='Onde fica o Hospital?' ></Cards2>    
-                <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Hospital?'></Cards2>    
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-            </section> </>} 
-            <div className='titulo-card'>
-                <h1>Mercado</h1>
-            </div>
-            <section className='Sobre-cards'>
-                
-                <Cards2  icon='assets/images/localCards.png' text='Onde fica o Hospital?' ></Cards2>    
-                <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Hospital?'></Cards2>    
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-            </section>
-            <div className='titulo-card'>
-                <h1>Transporte</h1>
-            </div>
-            <section className='Sobre-cards'>
-                
-                <Cards2  icon='assets/images/localCards.png' text='Onde fica o Hospital?' ></Cards2>    
-                <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Hospital?'></Cards2>    
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-            </section>
-            <div className='titulo-card'>
-                <h1>Alimentação</h1>
-            </div>
-            <section className='Sobre-cards'>
-                
-                <Cards2  icon='assets/images/localCards.png' text='Onde fica o Hospital?' ></Cards2>    
-                <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Hospital?'></Cards2>    
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-            </section> 
-            <div className='titulo-card'>
-                <h1>Banco</h1>
-            </div>
-            <section className='Sobre-cards'>
-                
-                <Cards2  icon='assets/images/localCards.png' text='Onde fica o Hospital?' ></Cards2>    
-                <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Hospital?'></Cards2>    
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>      
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>      
-            </section> 
-            <div className='titulo-card'>
-                <h1>Polícia</h1>
-            </div>
-            <section className='Sobre-cards'>
-                
-                <Cards2  icon='assets/images/localCards.png' text='Onde fica o Hospital?' ></Cards2>    
-                <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Hospital?'></Cards2>    
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-                <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?'></Cards2>       
-            </section>    
+
+            {categoriaSelecionada === 'Hospital' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Hospital</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/localCards.png' text='Onde fica o hospital mais próximo daqui?' />
+                        <Cards2 icon='assets/images/ambulanciaCards.png' text='Preciso de ajuda médica, pode me levar ao hospital?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Como faço para marcar uma consulta com um médico?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?' />
+                    </section>
+                </>
+            )}
+
+            {categoriaSelecionada === 'Mercado' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Mercado</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/carrinhoCards.png' text='Onde posso encontrar um mercado com preços acessíveis?' />
+                        <Cards2 icon='assets/images/frutasCards.png' text='Onde fica o Mercado?' />
+                        <Cards2 icon='assets/images/cartaoCards.png' text='Este mercado aceita cartões internacionais?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Mercado?' />
+                    </section>
+                </>
+            )}
+
+            {categoriaSelecionada === 'Transporte' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Transporte</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/localizacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/bilheteCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/relogioCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                    </section>
+                </>
+            )}
+
+            {categoriaSelecionada === 'Alimentacao' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Transporte</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/localizacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                    </section>
+                </>
+            )}
+
+            {categoriaSelecionada === 'Banco' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Transporte</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/localizacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                    </section>
+                </>
+            )}
         </>
-    )
+    );
 }
-export default Pagina1
+
+export default Pagina1;

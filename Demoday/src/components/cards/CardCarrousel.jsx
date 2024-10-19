@@ -3,10 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import '../Styles/CardCarrousel.css';
 import Card from './Card';
-import { useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom';
 
 const CardCarousel = () => {
-    const navigate = useNavigate(); 
+    const navigate = useNavigate();
 
     const cards = [
         { image: 'assets/images/remedio.gif', label: 'Hospital', route: '/hospital' },
@@ -16,8 +16,8 @@ const CardCarousel = () => {
         { image: null, label: 'Banco', route: '/banco' },
     ];
 
-    const onCardClick = (route) => {
-        navigate(route);
+    const onCardClick = (route, label) => {
+        navigate(route, { state: { categoriaSelecionada: label } });
     };
 
     return (
@@ -29,7 +29,11 @@ const CardCarousel = () => {
             style={{ width: '80%', margin: '0 auto' }}
         >
             {cards.map((card, index) => (
-                <SwiperSlide key={index} onClick={() => onCardClick(card.route)} style={{ cursor: 'pointer' }}>
+                <SwiperSlide
+                    key={index}
+                    onClick={() => onCardClick(card.route, card.label)} // Passa a rota e a categoria
+                    style={{ cursor: 'pointer' }}
+                >
                     <Card image={card.image} label={card.label} />
                 </SwiperSlide>
             ))}

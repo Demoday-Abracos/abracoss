@@ -17,6 +17,10 @@ function App() {
           <Route path='cards' element={<Cards />} />
           <Route path='Psicologos' element={<Psicologos />} />
           <Route path='hospital' element={<Pagina1/>}/>
+          <Route path='mercado' element={<Pagina1/>}/>
+          <Route path='Policia' element={<Pagina1/>}/>
+          <Route path='Banco' element={<Pagina1/>}/>
+          <Route path='Compras' element={<Pagina1/>}/>
         </Routes>
         <Footer />
       </Router>

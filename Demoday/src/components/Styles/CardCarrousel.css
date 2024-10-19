@@ -58,7 +58,13 @@
     padding: 100px 0 0 30px;
 }
 .img-cards {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 240px;
+    gap: 20px;
     height: 300px;
     padding: 20px;
     background-color: var(--terciary-color);
@@ -66,6 +72,7 @@
     margin-bottom: 20px;
     transition: transform 0.3s ease;
     cursor: pointer;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.532);
 }
 .img-cards:hover {
     transform: scale(1.05);
@@ -74,7 +81,7 @@
     color: #fff;
 }
 .img-cards img {
-    width: 200px;
+    width: 190px;
 }
 .Sobre-cards {
     display: flex;
@@ -90,18 +97,24 @@
     justify-content: space-evenly;
 }
 .button button {
-    padding: 10px;
+    padding: 5px 30px 5px 30px;
     border-radius: 20px;
     border: none;
     background-color: transparent;
     color: #fff;
     font-size: 1.2em;
-}
-.button button:hover {
-    background-color: blueviolet;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
 }
+
 .button {
     background-color: var(--primary-color);
     padding: 20px;
+}
+.button button.selecionado {
+    background-color: var(--terciary-color); 
+    color: white; 
+    border: 2px solid #FF6926; /* Borda diferente para o botão selecionado */
+    transform: scale(1.05);
 }
