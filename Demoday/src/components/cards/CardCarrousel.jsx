@@ -11,9 +11,9 @@ const CardCarousel = () => {
     const cards = [
         { image: 'assets/images/remedio.gif', label: 'Hospital', route: '/hospital' },
         { image: 'assets/images/fazer-compras.gif', label: 'Mercado', route: '/mercado' },
-        { image: 'assets/images/onibus-escolar.gif', label: 'Transporte', route: '/transporte' },
+        { image: 'assets/images/onibus-escolar.gif', label: 'Transporte', route: '/Transporte' },
         { image: null, label: 'Alimentação', route: '/alimentacao' },
-        { image: null, label: 'Banco', route: '/banco' },
+        { image: null, label: 'Banco', route: '/Banco' },
     ];
 
     const onCardClick = (route, label) => {
@@ -31,7 +31,7 @@ const CardCarousel = () => {
             {cards.map((card, index) => (
                 <SwiperSlide
                     key={index}
-                    onClick={() => onCardClick(card.route, card.label)} // Passa a rota e a categoria
+                    onClick={() => onCardClick(card.route, card.label)}
                     style={{ cursor: 'pointer' }}
                 >
                     <Card image={card.image} label={card.label} />

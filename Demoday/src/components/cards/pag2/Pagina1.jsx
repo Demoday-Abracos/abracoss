@@ -7,6 +7,16 @@ function Pagina1() {
     const location = useLocation();
     const [categoriaSelecionada, setCategoriaSelecionada] = React.useState(location.state?.categoriaSelecionada || 'Hospital');
 
+    // const speakText = (text) => {
+    //     const utterance = new SpeechSynthesisUtterance(text);
+    //     speechSynthesis.speak(utterance);
+    // };
+
+    const playAudio = (audioFile) => {
+        const audio = new Audio(audioFile);
+        audio.play();
+    };
+
     function mudarCondicao(e) {
         setCategoriaSelecionada(e.target.getAttribute('name'));
     }
@@ -20,11 +30,12 @@ function Pagina1() {
                 <button onClick={mudarCondicao} name='Hospital' className={categoriaSelecionada === 'Hospital' ? 'selecionado' : ''}>Hospital</button>
                 <button onClick={mudarCondicao} name='Mercado' className={categoriaSelecionada === 'Mercado' ? 'selecionado' : ''}>Mercado</button>
                 <button onClick={mudarCondicao} name='Transporte' className={categoriaSelecionada === 'Transporte' ? 'selecionado' : ''}>Transporte</button>
-                <button onClick={mudarCondicao} name='Alimentacao' className={categoriaSelecionada === 'Alimentacao' ? 'selecionado' : ''}>Alimentação</button>
+                <button onClick={mudarCondicao} name='Alimentação' className={categoriaSelecionada === 'Alimentação' ? 'selecionado' : ''}>Alimentação</button>
                 <button onClick={mudarCondicao} name='Banco' className={categoriaSelecionada === 'Banco' ? 'selecionado' : ''}>Banco</button>
-                <button onClick={mudarCondicao} name='Policia' className={categoriaSelecionada === 'Policia' ? 'selecionado' : ''}>Polícia</button>
+                <button onClick={mudarCondicao} name='Polícia' className={categoriaSelecionada === 'Polícia' ? 'selecionado' : ''}>Polícia</button>
                 <button onClick={mudarCondicao} name='Compras' className={categoriaSelecionada === 'Compras' ? 'selecionado' : ''}>Compras</button>
                 <button onClick={mudarCondicao} name='Escola' className={categoriaSelecionada === 'Escola' ? 'selecionado' : ''}>Escola</button>
+                <button onClick={mudarCondicao} name='Documentos' className={categoriaSelecionada === 'Documentos' ? 'selecionado' : ''}>Documentos</button>
             </div>
 
             {categoriaSelecionada === 'Hospital' && (
@@ -33,7 +44,9 @@ function Pagina1() {
                         <h1>Hospital</h1>
                     </div>
                     <section className={'Sobre-cards mostrar'}>
-                        <Cards2 icon='assets/images/localCards.png' text='Onde fica o hospital mais próximo daqui?' />
+                        <div onClick={() => playAudio('assets/audio/hospi.mp3')}>
+                            <Cards2 icon='assets/images/localCards.png' text='Onde fica o hospital mais próximo daqui?' />
+                        </div>
                         <Cards2 icon='assets/images/ambulanciaCards.png' text='Preciso de ajuda médica, pode me levar ao hospital?' />
                         <Cards2 icon='assets/images/comunicacaoCards.png' text='Como faço para marcar uma consulta com um médico?' />
                         <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Hospital?' />
@@ -69,7 +82,7 @@ function Pagina1() {
                 </>
             )}
 
-            {categoriaSelecionada === 'Alimentacao' && (
+            {categoriaSelecionada === 'Alimentação' && (
                 <>
                     <div className='titulo-card'>
                         <h1>Transporte</h1>
@@ -84,6 +97,59 @@ function Pagina1() {
             )}
 
             {categoriaSelecionada === 'Banco' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Transporte</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/localizacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                    </section>
+                </>
+            )}
+            {categoriaSelecionada === 'Polícia' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Transporte</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/localizacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                    </section>
+                </>
+                
+            )}
+            {categoriaSelecionada === 'Compras' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Transporte</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/localizacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                    </section>
+                </>
+            )}
+             {categoriaSelecionada === 'Escola' && (
+                <>
+                    <div className='titulo-card'>
+                        <h1>Transporte</h1>
+                    </div>
+                    <section className={'Sobre-cards mostrar'}>
+                        <Cards2 icon='assets/images/localizacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
+                    </section>
+                </>
+            )}
+             {categoriaSelecionada === 'Documentos' && (
                 <>
                     <div className='titulo-card'>
                         <h1>Transporte</h1>

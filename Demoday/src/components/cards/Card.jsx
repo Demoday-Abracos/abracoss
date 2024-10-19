@@ -1,5 +1,3 @@
-
-
 const Card = ({ image, label }) => {
     return (
         <div className="card">
