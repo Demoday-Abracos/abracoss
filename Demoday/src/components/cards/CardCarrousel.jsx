@@ -14,10 +14,6 @@ const CardCarousel = () => {
         { image: 'assets/images/onibus-escolar.gif', label: 'Transporte', route: '/transporte' },
         { image: null, label: 'Alimentação', route: '/alimentacao' },
         { image: null, label: 'Banco', route: '/banco' },
-        { image: null, label: 'Polícia', route: '/policia' },
-        { image: null, label: 'Compras', route: '/compras' },
-        { image: null, label: 'Escola', route: '/escola' },
-        { image: null, label: 'Documentos', route: '/documentos' },
     ];
 
     const onCardClick = (route) => {

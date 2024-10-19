@@ -5,7 +5,7 @@ function Pagina1() {
     const [condicional, setcondicional] = React.useState({'Hospital':true, 'Mercado': true})
 
     function mudarCondicao(e){
-        console.log(e);
+        console.log(e.target.getAttribute('name'));
         setcondicional((prevcondicao) => {return {... prevcondicao, 'Hospital': ! prevcondicao.Hospital }})
     }
 
