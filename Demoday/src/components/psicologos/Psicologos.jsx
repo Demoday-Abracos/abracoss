@@ -1,7 +1,26 @@
+import '../Styles/Psicologos.css'
+import Trabalhadores from './trabalhadores'
+
 function Psicologos() {
     return(
         <>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ducimus ea quo id dolore neque ex culpa suscipit! Commodi dolor aperiam soluta possimus dolorum architecto facilis cumque tempore repudiandae eius. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum ipsa nobis quo labore eum quod. Maxime molestiae animi quibusdam possimus voluptatum obcaecati mollitia! Eos debitis ut officiis quaerat molestias alias.</p>
+        <section>
+            <div className="fundo_psicologos"></div>
+        </section>
+
+        <section className='we'>
+            <h1>Nossos melhores Profissionais:</h1>
+        </section>
+
+        <section className='bordaa'>
+            <Trabalhadores foto='assets/images/DrCamila.svg' titulo='Dra. Camilla loures' paragrafo='Psicologia do Trauma e Resiliência Emocional'/>
+            <Trabalhadores foto='assets/images/DrRichard.svg' titulo='Dr. Richard Gomes' paragrafo='Psicologia da Inclusão e Apoio a Imigrantes e Refugiados'/>
+            <Trabalhadores foto='assets/images/DrRaquel.svg' titulo='Dra. Raquel sanches' paragrafo='Psicologia do Estresse e Bem-Estar Mental'/>
+        </section>
+
+        <section>
+            
+        </section>
         </>
     )
 }
