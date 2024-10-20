@@ -4,9 +4,13 @@ import AreaRefugio from "./AreaRefugio"
 import Slide from "./Slide"
 
 function Home() {
+    const firstSliderData = [
+        { id: '1', image: 'assets/images/fundo-home.svg' },
+        { id: '2', image: 'https://sujeitoprogramador.com/wp-content/uploads/2022/08/home.png' },
+    ];
     return(
         <>
-        <Slide imagens='assets/images/insta.png' ></Slide>
+        <Slide slideData={firstSliderData}></Slide>
             <section className='sec-principal'>
                 <h1 className='h1-principal'>Explore nossas categorias: </h1>
                 <div className='gifs-home'>

@@ -6,8 +6,12 @@ import Psicologos from './components/psicologos/Psicologos';
 import Footer from './components/home/Footer';
 import Home from './components/home/Home';
 import Cards from './components/cards/Cards';
+<<<<<<< HEAD
 import Pagina1 from './components/cards/pag2/pagina1';
 import MapSection from "./components/Documentos";
+=======
+import Pagina1 from './components/cards/pag2/Pagina1';
+>>>>>>> 8ab769b0fecc10fd0cebe6074c07fcbfe03eca24
 function App() {
   return (
     <>

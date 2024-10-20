@@ -6,7 +6,6 @@ const Counter = ({ endValue, text }) => {
     const [count, setCount] = useState(0);
     const counterRef = useRef(null);
 
-    // verificação para detectar se o elemento está no viewport
     const isElementInViewport = (el) => {
         const rect = el.getBoundingClientRect();
         return (
