@@ -1,9 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react"
 import '../../App.css'
+import 'swiper/swiper-bundle.css';
 function Slide() {
 
     const data = [
-        {id: '1', image: 'https://sujeitoprogramador.com/wp-content/uploads/2022/08/fullstack-blog.png'},
+        {id: '1', image: 'assets/images/fundo-home.svg'},
         {id: '2', image: 'https://sujeitoprogramador.com/wp-content/uploads/2022/08/home.png'},
     ]   
     return(
