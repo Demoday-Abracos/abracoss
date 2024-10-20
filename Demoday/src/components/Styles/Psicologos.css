@@ -11,8 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
 }
 
 
@@ -77,4 +77,55 @@
 .resumo{
     margin-left: 20px;
     margin-bottom: 30px;
+}
+
+.Laranja{
+    background-color: var(--primary-color);
+    width: 90%;
+    height: 550px;
+    margin: auto;
+    margin-bottom: 40px;
+    border-radius: 20px;
+
+}
+
+.tudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.imagens{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.textinho{
+    text-align: center;
+    color: #FFFF;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+
+.especificacoes{
+    position: absolute;
+    top: 330px;
+    color: #FFFF;
+    background-color: #1A5276;
+    border-radius: 10px;
+    width: 20%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.especificacoes:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }

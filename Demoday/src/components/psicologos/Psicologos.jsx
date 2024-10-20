@@ -1,4 +1,5 @@
 import '../Styles/Psicologos.css'
+import Beneficios from './Beneficios'
 import Trabalhadores from './trabalhadores'
 
 function Psicologos() {
@@ -18,8 +19,17 @@ function Psicologos() {
             <Trabalhadores foto='assets/images/DrRaquel.svg' titulo='Dra. Raquel sanches' paragrafo='Psicologia do Estresse e Bem-Estar Mental'/>
         </section>
 
-        <section>
-            
+        <section className='Laranja'>
+        <div className='textinho'>
+            <h1>Beneficios</h1>
+            <p>Acompanhe os privilégios de nossos serviços</p>
+        </div>
+            <div className='imagens'>
+                <Beneficios foto='assets/images/Consultas.svg' texto='Consultas
+                sem custo'/>
+                <Beneficios foto='assets/images/atendimento.svg' texto='Atendimentos online'/>
+                <Beneficios foto='assets/images/Tratamento.svg' texto='Tratamento acompanhado'/>
+            </div>
         </section>
         </>
     )
