@@ -27,6 +27,7 @@ function Pagina1() {
                 <h1 style={{ color: '#fff' }}>Conecte-se de forma rápida e <br /> simples em qualquer idioma.</h1>
             </div>
             <div className='button'>
+                <button onClick={mudarCondicao} name='Hospital' className={categoriaSelecionada === 'Hospital' ? 'selecionado' : ''}>Saudações</button>
                 <button onClick={mudarCondicao} name='Hospital' className={categoriaSelecionada === 'Hospital' ? 'selecionado' : ''}>Hospital</button>
                 <button onClick={mudarCondicao} name='Mercado' className={categoriaSelecionada === 'Mercado' ? 'selecionado' : ''}>Mercado</button>
                 <button onClick={mudarCondicao} name='Transporte' className={categoriaSelecionada === 'Transporte' ? 'selecionado' : ''}>Transporte</button>

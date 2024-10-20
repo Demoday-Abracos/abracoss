@@ -105,12 +105,18 @@
     font-size: 1.2em;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px;
     
 }
 
 .button {
     background-color: var(--primary-color);
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
 }
 .button button.selecionado {
     background-color: var(--terciary-color); 
