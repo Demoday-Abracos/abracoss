@@ -31,6 +31,23 @@ function Psicologos() {
                 <Beneficios foto='assets/images/Tratamento.svg' texto='Tratamento acompanhado'/>
             </div>
         </section>
+
+        <section className='Formulario'>
+            <div className='juncao'>
+            <img src="assets/images/Apertodemao.svg" alt="Aperto de mão" />
+                <div className='envolta'>
+                    <div className='ladoaperto'>
+                        <h1>Preencha o formulário</h1>
+                        <p>Para que possamos entender melhor o seu caso e oferecer a assistência adequada</p>
+                    </div>
+                    <div className='preparadolaranja'>
+                        <p className='preparado'>Preparado para começar?</p>
+                        <p className='preparadoazul'>Preparado</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
         </>
     )
 }
