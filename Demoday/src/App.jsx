@@ -6,12 +6,8 @@ import Psicologos from './components/psicologos/Psicologos';
 import Footer from './components/home/Footer';
 import Home from './components/home/Home';
 import Cards from './components/cards/Cards';
-<<<<<<< HEAD
 import Pagina1 from './components/cards/pag2/pagina1';
-import MapSection from "./components/Documentos";
-=======
-import Pagina1 from './components/cards/pag2/Pagina1';
->>>>>>> 8ab769b0fecc10fd0cebe6074c07fcbfe03eca24
+import MapSection from './components/Documentos/ContactForm';
 function App() {
   return (
     <>
@@ -21,6 +17,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='cards' element={<Cards />} />
           <Route path='Psicologos' element={<Psicologos />} />
+          <Route path='Documentacao' element={<MapSection/>} />
           <Route path='hospital' element={<Pagina1/>}/>
           <Route path='mercado' element={<Pagina1/>}/>
           <Route path='Polícia' element={<Pagina1/>}/>
