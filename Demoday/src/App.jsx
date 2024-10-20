@@ -6,7 +6,7 @@ import Psicologos from './components/psicologos/Psicologos';
 import Footer from './components/home/Footer';
 import Home from './components/home/Home';
 import Cards from './components/cards/Cards';
-import Pagina1 from './components/cards/pag2/pagina1';
+import Pagina1 from './components/cards/pag2/Pagina1';
 function App() {
   return (
     <>

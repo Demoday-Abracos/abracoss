@@ -13,15 +13,15 @@ function Header() {
                     <ul>
                         <li className='nav-link' ><Link to='/'>Home</Link></li>
                         <li className='nav-link' ><Link to='Psicologos'>Psicólogos</Link></li>
-                        <li className='nav-link'><Link>Cursos</Link></li>
+                        <li className='nav-link'><Link to='Cursos'>Cursos</Link></li>
                         <li className='nav-link'><Link to='cards'>Cards</Link></li>
-                        <li className='nav-link'><Link>Documentação</Link></li>
-                        <li className='nav-link'><Link>Sobre</Link></li>
+                        <li className='nav-link'><Link to='Documentacao'>Documentação</Link></li>
+                        <li className='nav-link'><Link to='Sobre'>Sobre</Link></li>
                     </ul>
                 </nav>
                 <div className='area_cadastro'>
-                    <div className='login'>Login</div>
-                    <div className='cadastro'>Cadastre-se</div>
+                    <div className='login'><Link to='Entrar'>Entrar</Link></div>
+                    <div className='cadastro'><Link to='Cadastro'>Cadastre-se</Link></div>
                 </div>
             </header>
             
