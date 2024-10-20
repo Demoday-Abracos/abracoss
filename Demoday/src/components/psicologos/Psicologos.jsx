@@ -6,7 +6,9 @@ function Psicologos() {
     return(
         <>
         <section>
-            <div className="fundo_psicologos"></div>
+            <div className="fundo_psicologos">
+                <p>Abraçando sonhos, construindo futuros. Cada<br /> <span className='passo'>passo</span> é um caminho para um novo <span className='recomeço'>recomeço.</span></p>
+            </div>
         </section>
 
         <section className='we'>

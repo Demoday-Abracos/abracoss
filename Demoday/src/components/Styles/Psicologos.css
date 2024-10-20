@@ -1,3 +1,4 @@
+/* SECTION 1 */
 .fundo_psicologos{
     background: url(../../../public/assets/images/psicologoscapa.png) no-repeat;
     width: 100%;
@@ -7,15 +8,34 @@
 
 }
 
+.fundo_psicologos p{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #fff;
+    padding: 200px 0 0 70px;
+}
+
+.passo{
+    color: var(--primary-color);
+}
+
+.recomeço{
+    color: #4B92DB;
+}
+
+/* SECTION 2 */
+
 .we{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
     margin-top: 70px;
     margin-bottom: 40px;
 }
 
-
+/* SECTION 3 */
 
 .bordaa{
     margin-bottom: 100px;
@@ -79,6 +99,8 @@
     margin-bottom: 30px;
 }
 
+/* SECTION 4 */
+
 .Laranja{
     background-color: var(--primary-color);
     width: 95%;
@@ -129,6 +151,8 @@
     transform: scale(1.05);
     cursor: pointer;
 }
+
+/* SECTION 5 */
 
 .Formulario{
     display: flex;
