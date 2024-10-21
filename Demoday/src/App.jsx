@@ -1,4 +1,4 @@
-
+import SobreNos from './components/SobreNos/SobreNos';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/home/Header';
@@ -27,6 +27,7 @@ function App() {
           <Route path='Alimentação' element={<Pagina1/>}/>
           <Route path='MainSection' element={<Pagina1/>}/>
           <Route path='Alimentação' element={<Pagina1/>}/>
+          <Route path='SobreNos' element={<SobreNos/>}/>
 
         </Routes>
         <Footer />
