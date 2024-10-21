@@ -19,7 +19,7 @@ function Desenvolvedores ({imagens, texto,titulo ,foto1, foto2 ,texto2}) {
                 {texto}
                 </p>
 
-                <p>{texto2}</p>
+                <p className='textoazul'>{texto2}</p>
             </div>
 
 

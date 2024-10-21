@@ -26,7 +26,7 @@ function SobreNos() {
                     texto='Inclusão & Diversidade: Valorizamos a riqueza cultural e social trazida por diferentes culturas. Acreditamos que todos, independentemente de sua origem, têm o direito de se sentir incluso e parte da sociedade.  Crescimento: Valorizar o desenvolvimento pessoal e profissional dos imigrantes, fornecendo os recursos para que alcancem seu potencial. Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, oferecendo ferramentas para o sucesso e a reintegração.'
                 />
             </div>
-            <div>
+            <div className="titulodev">
                 <h1>Desenvolvedores</h1>
 
             </div>
@@ -63,10 +63,10 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/iarley.png'
-                            titulo='Iarley Souza'
+                            imagens='assets/images/Frame 11 (2).png'
+                            titulo='Vitor Hugo'
                             texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
-                            texto2='Product Owner, Full-Stack'
+                            texto2='UI/UX & Front end'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
 
@@ -75,10 +75,10 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/hugo.png'
-                            titulo='Hugo Ribeiro'
+                            imagens='assets/images/hillary.png'
+                            titulo='Hillary Silva'
                             texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
-                            texto2='Scrum Master, Full-stack'
+                            texto2='UI/UX & Front end'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
                         />
@@ -91,10 +91,10 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/iarley.png'
-                            titulo='Iarley Souza'
+                            imagens='assets/images/ramalho.png'
+                            titulo='Victor Ramalho'
                             texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
-                            texto2='Product Owner, Full-Stack'
+                            texto2='Cloud Back-end'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
 
@@ -103,8 +103,8 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/hugo.png'
-                            titulo='Hugo Ribeiro'
+                            imagens='assets/images/jonathan.png'
+                            titulo='Jonathan Silva'
                             texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
                             texto2='Scrum Master, Full-stack'
                             foto1='assets/images/githublogo.svg'
@@ -115,10 +115,10 @@ function SobreNos() {
 
                 </div>
 
-                <div>
+                <div className="ryan">
                         <Desenvolvedores
-                            imagens='assets/images/hugo.png'
-                            titulo='Hugo Ribeiro'
+                            imagens='assets/images/ryan.png'
+                            titulo='Ryan Honorato'
                             texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
                             texto2='Scrum Master, Full-stack'
                             foto1='assets/images/githublogo.svg'
