@@ -89,7 +89,7 @@ function Pagina1() {
                         <h1>Transporte</h1>
                     </div>
                     <section className={'Sobre-cards mostrar'}>
-                        <Cards2 icon='assets/images/localizacaoCards.png' text='Onde fica o Transporte?' />
+                        <Cards2 icon='assets/images/restauranteCards.png' text='Onde fica o Transporte?' />
                         <Cards2 icon='assets/images/ambulanciaCards.png' text='Onde fica o Transporte?' />
                         <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
                         <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
