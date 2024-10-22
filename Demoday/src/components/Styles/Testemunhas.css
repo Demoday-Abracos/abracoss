@@ -121,12 +121,23 @@
     padding: 30px;
     cursor: pointer;
     border-top-left-radius: 100px;
+    width: 40%;
     background-color: #4B92DB;
 }
 .emprego .button-primary {
     padding: 30px;
+    width: 40%;
     cursor: pointer;
     border-bottom-right-radius: 100px;
     background-color: #1A5276;
     
+}
+.emprego .button-primary:hover {
+
+}
+.emprego {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
 }
