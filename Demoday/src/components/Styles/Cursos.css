@@ -1,0 +1,112 @@
+.lllllllll{
+    margin-top: 400px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+    /* IMAGEM DE FUNDO */
+.lupa{
+    width: 25px;
+    height: 25px;
+}
+.buscar{
+    width: 130px;
+    height: 20px;
+    background-color: #FF6926;
+    border: 0px;
+}
+.buscar::placeholder{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.fundo_cursos{
+    background: url(../../../public/assets/images/fundo_cursos.png) no-repeat;
+    width: 100%;
+    height: 610px;
+    background-position: top bottom;
+    background-size: cover;
+}
+
+.barra_laranja_pesquisa{
+    background-color:#FF6926;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+.palavra_aprender{
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #fff;
+    padding: 130px 0 0 90px;
+}
+.ptt{
+    color: var(--primary-color);
+    font-size: 3.5em;
+    padding-left: 90px;
+}
+
+
+.div_branca{
+    background-color: #fff;
+    width: 520px;
+    height: 170px;
+    border-radius: 20px;
+    margin: 40px 0 0 90px;
+}
+.O_que_você_quer_aprender{
+    color: #222;
+    padding: 15px 0px 0px 40px;
+    font-size: 25px;
+}
+.lupa2{
+    width: 45px;
+    margin: 20px 20px 20px 20px;
+}
+.buscarr{
+    border: 0px;
+    width: 300px;
+    height: 20px;
+}
+.colocar_display{   
+    display: flex;
+    align-items: center;
+}
+.buscarr::placeholder{
+    color: #333;
+    font-size: 20px;
+}
+
+
+
+    /* PARTE DA BANDEIRA: */
+.bandeira_refugiados{
+    margin: 70px 0px 50px 0px;
+    width: 1400px;
+}
+.colocar_displayy{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+    /* DIFERENCIAIS: */
+.diferenciais{
+    width: 90%;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.colocar_displayyy{
+    display: flex;
+    justify-content: space-between;
+}

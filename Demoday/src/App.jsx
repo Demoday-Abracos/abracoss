@@ -8,6 +8,7 @@ import Home from './components/home/Home';
 import Cards from './components/cards/Cards';
 import Pagina1 from './components/cards/pag2/pagina1';
 import MapSection from './components/Documentos/ContactForm';
+import Cursos from './components/Cursos/Cursos';
 function App() {
   return (
     <>
@@ -27,6 +28,7 @@ function App() {
           <Route path='Alimentação' element={<Pagina1/>}/>
           <Route path='MainSection' element={<Pagina1/>}/>
           <Route path='Alimentação' element={<Pagina1/>}/>
+          <Route path='Cursos' element={<Cursos/>}/>
 
         </Routes>
         <Footer />
