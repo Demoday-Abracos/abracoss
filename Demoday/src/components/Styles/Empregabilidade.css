@@ -26,14 +26,14 @@
    
   }
   
-  h1 {
+  .titulo-form {
     padding: 20px;
     font-size: 3em;
     color: #f4511e;
     margin-bottom: 15px;
   }
   
-  p {
+  .paragrafo-form {
     padding: 10px;
     font-size: 1.8em;
     margin-bottom: 10px;
