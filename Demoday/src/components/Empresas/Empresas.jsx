@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import '../Styles/Empregabilidade.css';
+import botao from '../../../public/assets/images/botaovoltar.svg';
+import { Link } from 'react-router-dom';
 
 function Empregabilidade() {
-
   const [formData, setFormData] = useState({
-    nome: '',
+    razaoSocial: '',
+    nomeFantasia: '',
     email: '',
     telefone: '',
-    comoConheceu: '',
+    endereco: '',
     mensagem: ''
   });
-
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,83 +21,103 @@ function Empregabilidade() {
     }));
   };
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Dados do formulário:', formData);
     alert('Formulário enviado com sucesso!');
     setFormData({
-
-      nome: '',
+      razaoSocial: '',
+      nomeFantasia: '',
       email: '',
       telefone: '',
-      comoConheceu: '',
+      endereco: '',
       mensagem: ''
     });
   };
 
   return (
     <section className='section_fundo'>
+      <div className='voltar_button'>
+        <Link to="/">
+          <img src={botao} alt="Voltar" />
+        </Link>
+      </div>
+
       <section className="form-section">
         <h1 className='titulo-form'>Faça seu cadastro</h1>
         <p className='paragrafo-form'>
-          Envie uma mensagem e entraremos em contato para ajudar a encontrar o emprego que mais combina com seu perfil e habilidades.
-        </p>
-        <p className="alert">
-          No momento atuamos apenas na grande São Paulo
+          Envie suas informações e entraremos em contato.
         </p>
         <form className="cadastro-form" onSubmit={handleSubmit}>
           <div className="input-group">
-            <label htmlFor="nome">Nome</label>
+            <label htmlFor="razaoSocial"></label>
             <input
               type="text"
-              id="nome"
-              name="nome"
-              value={formData.nome}
+              id="razaoSocial"
+              name="razaoSocial"
+              value={formData.razaoSocial}
               onChange={handleChange}
+              placeholder="Razão Social*"
               required
             />
           </div>
           <div className="input-group">
-            <label htmlFor="email">E-mail</label>
+            <label htmlFor="nomeFantasia"></label>
+            <input
+              type="text"
+              id="nomeFantasia"
+              name="nomeFantasia"
+              value={formData.nomeFantasia}
+              onChange={handleChange}
+              placeholder="Nome Fantasia*"
+              required
+            />
+          </div>
+          <div className="input-group">
+            <label htmlFor="email"></label>
             <input
               type="email"
               id="email"
               name="email"
               value={formData.email}
               onChange={handleChange}
+              placeholder="E-mail*"
               required
             />
           </div>
           <div className="input-group">
-            <label htmlFor="telefone">Telefone</label>
+            <label htmlFor="telefone"></label>
             <input
               type="tel"
               id="telefone"
               name="telefone"
               value={formData.telefone}
               onChange={handleChange}
+              placeholder="Telefone*"
+              required
             />
           </div>
           <div className="input-group">
-            <label htmlFor="comoConheceu">Como conheceu a Abraços?</label>
+            <label htmlFor="endereco"></label>
             <input
               type="text"
-              id="comoConheceu"
-              name="comoConheceu"
-              value={formData.comoConheceu}
+              id="endereco"
+              name="endereco"
+              value={formData.endereco}
               onChange={handleChange}
+              placeholder="Endereço*"
+              required
             />
           </div>
           <div className="input-group">
-            <label htmlFor="mensagem">Mensagem</label>
+            <label htmlFor="mensagem"></label>
             <textarea
               id="mensagem"
               name="mensagem"
               rows="5"
               value={formData.mensagem}
               onChange={handleChange}
-
+              placeholder="Mensagem"
             ></textarea>
           </div>
           <button type="submit" className="submit-btn">Enviar</button>

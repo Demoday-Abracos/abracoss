@@ -9,7 +9,8 @@ import Cards from './components/cards/Cards';
 import Pagina1 from './components/cards/pag2/pagina1';
 import MapSection from './components/Documentos/ContactForm';
 import Cursos from './components/Cursos/Cursos';
-import Empregabilidade from './components/Empresas/Empregabilidade'
+import Empregabilidade from './components/Empregados/Empregabilidade'
+import Empresas from './components/Empresas/Empresas';
 function App() {
   return (
     <>
@@ -31,7 +32,8 @@ function App() {
           <Route path='Alimentação' element={<Pagina1/>}/>
           <Route path='SobreNos' element={<SobreNos/>}/>
           <Route path='Cursos' element={<Cursos/>}/>
-          <Route path='contratar' element={<Empregabilidade/>}/>
+          <Route path='Empregar' element={<Empregabilidade/>}/>
+          <Route path='Empresas' element={<Empresas/>}/>
 
         </Routes>
         <Footer />
