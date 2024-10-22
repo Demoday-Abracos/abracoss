@@ -1,34 +1,32 @@
+.SobreNos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
 
+}
 
-.SobreNos{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   width: 80%;
-   margin: auto;
-   gap: 30px;
-
-    }
-
- .SobreNos >div p 	{
+.SobreNos>div p {
     font-size: 2em;
- }
- 
- .SobreNos >div h1 {
+}
+
+.SobreNos>div h1 {
 
     font-size: 2.7em;
     color: var(--primary-color);
-    
- }
 
- .imgs{
+}
+
+.imgs {
     display: flex;
     flex-direction: column;
     margin: 100px;
     margin-bottom: 250px;
 }
- 
-.imgdescricao{
+
+.imgdescricao {
     margin-bottom: 100px;
 }
 
@@ -43,22 +41,22 @@
     margin: auto;
 }
 
-.devs{
+.devs {
     display: flex;
-    
+
     padding: 20px;
     margin: auto;
 }
 
-.ryan{
+.ryan {
     width: 51%;
-    display:flex;
+    display: flex;
     margin-bottom: 150px;
 
 
 }
 
-.textoazul{
+.textoazul {
     color: #002266;
 }
 
@@ -68,7 +66,5 @@
     justify-content: center;
     margin-bottom: 70px;
     font-size: 1.7em;
-    
+
 }
-
-

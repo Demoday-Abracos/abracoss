@@ -102,10 +102,7 @@ footer {
     font-size: 1.3em;
     width: 60%;
 }
-.h1-principal {
-    margin-top: 1.5em;
-    text-align: center;
-}
+
 main {
     display: flex;
     align-items: center;

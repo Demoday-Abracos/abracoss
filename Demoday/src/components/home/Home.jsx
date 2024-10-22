@@ -11,8 +11,9 @@ function Home() {
     return(
         <>
         <Slide slideData={firstSliderData}></Slide>
+        
             <section className='sec-principal'>
-                <h1 className='h1-principal'>Explore nossas categorias: </h1>
+            <h1>Explore nossas categorias: </h1>
                 <div className='gifs-home'>
                     <img src="assets/gifs/documento.gif" alt="Gif do documento" />
                     <p>Suporte para regularização de documentos com segurança e tranquilidade.</p>
