@@ -86,9 +86,9 @@ function Cursos(){
             {/* OBJETIVOS: */}
             <h1 className='h1_obj'>Objetivos</h1>
         <div className='objetivos'>
-            <img className='img_laranja' src={quadrado_laranja} alt="" />
+            <img className='img_laranja1' src={quadrado_laranja} alt="" />
             <p className='p_obj'>Em termos gerais, o nosso curso visa ensinar português de forma descomplicada além de aumentar conhecimentos e habilidades de imigrantes e refugiados. Para  viabilizar isso, estabelecemos dois objetivos principais:</p>
-            <img className='img_laranja' src={quadrado_laranja} alt="" />
+            <img className='img_laranja2' src={quadrado_laranja} alt="" />
         </div>
 
         <div className='paragrafos_obg'>

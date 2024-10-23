@@ -193,7 +193,11 @@
     display: flex;
     justify-content: space-between;
 }
-.img_laranja{
+.img_laranja1{
+    border-radius: 0px 10px 10px 0px;
+}
+.img_laranja2{
+    border-radius: 10px 0px 0px 10px;
 }
 .h1_obj{
     font-size: 40px;
