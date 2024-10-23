@@ -1,7 +1,7 @@
 import '../Styles/Psicologos.css';
 import Beneficios from './Beneficios';
 import Trabalhadores from './trabalhadores';
-import Modal from './Modal'; // Importando o modal
+import Modal from './Modal';
 import { useState } from 'react';
 
 function Psicologos() {
@@ -17,7 +17,7 @@ function Psicologos() {
         {
             foto: 'assets/images/DrRichard.svg',
             titulo: 'Dr. Richard Gomes',
-            paragrafo: 'Psicologia da Inclusão e Apoio a Imigrantes e Refugiados',
+            paragrafo: 'Psicologia da Inclusão e apoio ',
         },
         {
             foto: 'assets/images/DrRaquel.svg',

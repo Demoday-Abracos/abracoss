@@ -20,7 +20,7 @@ function Videoaulas() {
             </div>
 
             <div className='qual_s'>
-                <p>Qual serviço de Aulas de Português está <br />precisando?</p>
+                <p>Qual serviços de Aulas de Português está <br />precisando?</p>
             </div>
 
             <button className="btn-gramatica">Gramática</button>

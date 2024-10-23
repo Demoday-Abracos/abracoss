@@ -6,7 +6,7 @@ function Trabalhadores ({foto, titulo, paragrafo, trabalhador}) {
     return(
         <>
             <section className='borda'>
-                <div className='tudo'>
+                <div className='tudooo'>
                     <div className='foto'>
                         <img src={foto} alt={trabalhador} />
                     </div>
@@ -16,7 +16,9 @@ function Trabalhadores ({foto, titulo, paragrafo, trabalhador}) {
                             ⭐4,8
                         </div>
                     </div>
-                    <p className='resumo'>{paragrafo}</p>
+                    <div className='especificacao'>
+                        <p className='resumo'>{paragrafo}</p>
+                    </div>
                 </div>
             </section>
         </>
