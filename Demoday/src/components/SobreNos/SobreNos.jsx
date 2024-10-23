@@ -27,7 +27,7 @@ function SobreNos() {
                 />
             </div>
             <div className="titulodev">
-                <h1>Desenvolvedores</h1>
+                <h1>Desenvolvedores:</h1>
 
             </div>
             <section className="sectchones">
@@ -35,7 +35,7 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/iarley.png'
+                            imagens='assets/images/iarley.svg'
                             titulo='Iarley Souza'
                             texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
                             texto2='Product Owner, Full-Stack'
@@ -47,7 +47,7 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/hugo.png'
+                            imagens='assets/images/hugo.svg'
                             titulo='Hugo Ribeiro'
                             texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
                             texto2='Scrum Master, Full-stack'
@@ -63,7 +63,7 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/Frame 11 (2).png'
+                            imagens='assets/images/vitorH.svg'
                             titulo='Vitor Hugo'
                             texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
                             texto2='UI/UX & Front end'
@@ -75,7 +75,7 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/hillary.png'
+                            imagens='assets/images/hillary.svg'
                             titulo='Hillary Silva'
                             texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
                             texto2='UI/UX & Front end'
@@ -91,7 +91,7 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/ramalho.png'
+                            imagens='assets/images/victorR.svg'
                             titulo='Victor Ramalho'
                             texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
                             texto2='Cloud Back-end'
@@ -103,7 +103,7 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/jonathan.png'
+                            imagens='assets/images/jona.svg'
                             titulo='Jonathan Silva'
                             texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
                             texto2='Scrum Master, Full-stack'
@@ -117,7 +117,7 @@ function SobreNos() {
 
                 <div className="ryan">
                         <Desenvolvedores
-                            imagens='assets/images/ryan.png'
+                            imagens='assets/images/ryan.svg'
                             titulo='Ryan Honorato'
                             texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
                             texto2='Scrum Master, Full-stack'

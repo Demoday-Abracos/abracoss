@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../Styles/Empresas.css';
 import botao from '../../../public/assets/images/botaovoltar.svg';
 import bolas from '../../../public/assets/images/bolas.svg';
+import Doe from '../../../public/assets/images/Imagemdoe.svg';
 import { Link } from 'react-router-dom';
 
 function Empresas() {
@@ -64,7 +65,7 @@ function Empresas() {
         <p className='juridicas'>1.Cadastramos apenas pessoas juridicas (empresas)</p>
       </div>
 
-      <div className='bloco_azul'></div>
+      <div className='bloco_azul1'></div>
 
       <div className='texto_servicos'>
         <h1>Serviços prestados</h1>
@@ -76,7 +77,8 @@ function Empresas() {
         <li>Acompanhamento e acesso aos serviços.</li>
       </div>
 
-      <div className='bloco_azul'></div>
+
+      <div className='bloco_azul2'></div>
 
       <section className="form-section">
         <h1 className='titulo-form'>Preencha o formulário</h1>
@@ -157,7 +159,18 @@ function Empresas() {
           </div>
           <button type="submit" className="submit-btn">Enviar</button>
         </form>
+        
       </section>
+
+      <div className='imagemdoe'>
+        <img src={Doe} alt="Doe" />
+        <div className="conteudo-imagem">
+          <h1>Junte-se a nós e faça a <span>diferença!</span></h1>
+          <button>Doe</button>
+        </div>
+      </div>
+
+
     </section>
   );
 }

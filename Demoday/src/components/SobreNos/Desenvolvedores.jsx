@@ -5,7 +5,7 @@ function Desenvolvedores ({imagens, texto,titulo ,foto1, foto2 ,texto2}) {
     return (
         <>
         <div className='Fundoslaranja'>
-            <div>
+            <div className='img-laranja'>
                 <img src={imagens} alt="" />
             </div>
             <div>
