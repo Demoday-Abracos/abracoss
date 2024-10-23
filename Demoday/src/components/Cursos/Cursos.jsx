@@ -92,7 +92,7 @@ function Cursos(){
 
         <div className='paragrafos_obg'>
             <p className='paragrafo2_obj'>
-                1. Permitir que refugiados e imigrantes interajam com a sociedade e tenham acesso aos seus  direitos básicos, sem precisar da ajuda de outras pessoas.
+                1. Permitir que refugiados e imigrantes interajam com a sociedade e tenham acesso aos seus  direitos básicos.
             </p>
             <p className='paragrafo2_obj'>
                 2. Apoio a transição para o mercado de trabalho, com o objetivo de promover a total inclusão social e financeira desses indivíduos.

@@ -12,16 +12,10 @@ import Cursos from './components/Cursos/Cursos';
 import Empregabilidade from './components/Empregados/Empregabilidade'
 import Empresas from './components/Empresas/Empresas';
 import Bandeira from './components/Documentos/Bandeira';
-<<<<<<< HEAD
 import Formulario from './components/Documentos/Formulario';
 import Regularizacao from './components/Documentos/Regularizacao';
 import Mapa from './components/Documentos/Mapa';
-=======
 import Videoaulas from './components/videoaulas/videoaulas';
->>>>>>> d6581e97d422dbb75fcbe33de6cb870cd01c2700
-=======
-import Videoaulas from './components/videoaulas/Videoaulas';
->>>>>>> 87682da3967c150f1fc5aa2a9cec557ed44632e5
 function App() {
 
   
