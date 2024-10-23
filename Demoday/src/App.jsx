@@ -1,5 +1,5 @@
 import SobreNos from './components/SobreNos/SobreNos';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 import Header from './components/home/Header';
 import Psicologos from './components/psicologos/Psicologos';
@@ -11,8 +11,14 @@ import Passaporte from './components/Documentos/Passaporte';
 import Cursos from './components/Cursos/Cursos';
 import Empregabilidade from './components/Empregados/Empregabilidade'
 import Empresas from './components/Empresas/Empresas';
+<<<<<<< HEAD
 import Bandeira from './components/Documentos/Bandeira';
+=======
+import Videoaulas from './components/videoaulas/videoaulas';
+>>>>>>> d6581e97d422dbb75fcbe33de6cb870cd01c2700
 function App() {
+
+  
   return (
     <>
       <Router>
@@ -34,8 +40,12 @@ function App() {
           <Route path='Cursos' element={<Cursos/>}/>
           <Route path='Empregar' element={<Empregabilidade/>}/>
           <Route path='Empresas' element={<Empresas/>}/>
+<<<<<<< HEAD
           <Route path='Passaporte' element={<Passaporte/>}/>
           <Route path='Bandeira' element={<Bandeira/>}/>
+=======
+          <Route path='Videoaulas' element={<Videoaulas/>}/>
+>>>>>>> d6581e97d422dbb75fcbe33de6cb870cd01c2700
         </Routes>
         <Footer />
       </Router>

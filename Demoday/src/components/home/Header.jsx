@@ -7,7 +7,7 @@ function Header() {
         <>
             <header>
                 <div className="logo">
-                    <Link to='/'><img src="assets/images/logo.png" alt="Logo" /></Link>
+                    <Link to='/'><img src="assets/images/Logo.png" alt="Logo" /></Link>
                 </div>
                 <nav>
                     <ul>
@@ -20,7 +20,7 @@ function Header() {
                     </ul>
                 </nav>
                 <div className='area_cadastro'>
-                    <div className='login'><Link to='Entrar'>Entrar</Link></div>
+                    <div className='login'><Link to='login'>Entrar</Link></div>
                     <div className='cadastro'><Link to='Cadastro'>Cadastre-se</Link></div>
                 </div>
             </header>

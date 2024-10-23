@@ -149,14 +149,20 @@
     font-size: 22px;
 }
 .ComeceAq{
-    background: #FF6926;
+    background: var(--primary-color);
     width: 160px;
     height: 40px;
-    border-radius: 15px;
-    border: #222 2px solid;
+    border-radius: 10px;
+    border: none;
     color: #fff;
     font-size: 14px;
     font-weight: bolder;
+    transition: transform 0.3s ease;
+}
+
+.ComeceAq:hover{
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 
