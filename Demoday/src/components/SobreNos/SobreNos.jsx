@@ -63,7 +63,7 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/Frame 11 (2).png'
+                            imagens='assets/images/vitorH.png'
                             titulo='Vitor Hugo'
                             texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
                             texto2='UI/UX & Front end'
