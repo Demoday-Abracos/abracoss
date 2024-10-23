@@ -11,14 +11,17 @@ import Passaporte from './components/Documentos/Passaporte';
 import Cursos from './components/Cursos/Cursos';
 import Empregabilidade from './components/Empregados/Empregabilidade'
 import Empresas from './components/Empresas/Empresas';
-<<<<<<< HEAD
 import Bandeira from './components/Documentos/Bandeira';
+<<<<<<< HEAD
 import Formulario from './components/Documentos/Formulario';
 import Regularizacao from './components/Documentos/Regularizacao';
 import Mapa from './components/Documentos/Mapa';
 =======
 import Videoaulas from './components/videoaulas/videoaulas';
 >>>>>>> d6581e97d422dbb75fcbe33de6cb870cd01c2700
+=======
+import Videoaulas from './components/videoaulas/Videoaulas';
+>>>>>>> 87682da3967c150f1fc5aa2a9cec557ed44632e5
 function App() {
 
   
@@ -43,15 +46,16 @@ function App() {
           <Route path='Cursos' element={<Cursos/>}/>
           <Route path='Empregar' element={<Empregabilidade/>}/>
           <Route path='Empresas' element={<Empresas/>}/>
+<<<<<<< HEAD
           <Route path='Fomulario' element={<Formulario/>}/>
           <Route path='Regularizacao' element={<Regularizacao/>}/>
           <Route path='Mapa' element={<Mapa/>}/>
 <<<<<<< HEAD
+=======
+>>>>>>> 87682da3967c150f1fc5aa2a9cec557ed44632e5
           <Route path='Passaporte' element={<Passaporte/>}/>
           <Route path='Bandeira' element={<Bandeira/>}/>
-=======
           <Route path='Videoaulas' element={<Videoaulas/>}/>
->>>>>>> d6581e97d422dbb75fcbe33de6cb870cd01c2700
         </Routes>
         <Footer />
       </Router>
