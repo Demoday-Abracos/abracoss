@@ -71,7 +71,9 @@
     margin-left: 67px;
 }
 
-.imagemdoe {
+/* PARTE DO DOE */
+
+/* .imagemdoe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,4 +126,4 @@
 .conteudo-imagem button:hover {
     transform: scale(1.05);
     background-color: var(--terciary-color);
-}
+} */

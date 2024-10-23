@@ -162,13 +162,15 @@ function Empresas() {
         
       </section>
 
-      <div className='imagemdoe'>
+{/* PARTE DO DOE */}
+
+      {/* <div className='imagemdoe'>
         <img src={Doe} alt="Doe" />
         <div className="conteudo-imagem">
           <h1>Junte-se a nós e faça a <span>diferença!</span></h1>
           <button>Doe</button>
         </div>
-      </div>
+      </div> */}
 
 
     </section>

@@ -1,4 +1,5 @@
 import '../Styles/Cursos.css'
+import { Link } from 'react-router-dom'
 import lupa from '../../../public/assets/images/lupa.png'
 import produtividade from '../../../public/assets/images/produtividade.png'
 import desenvolvimento from '../../../public/assets/images/desenvolvimento.png'
@@ -59,9 +60,7 @@ function Cursos(){
                 <h1 className='h1_diferenciais'>Diferenciais</h1>
                     <div className='colocar_displayyy'>
                         <p className='p_beneficios'>Benefícios que você ira querer!</p>
-                        <button className='ComeceAq' title='Comece Aqui' alt='Comece_Aqui'>
-                            Comece Aqui
-                        </button>
+                        <button className='ComeceAq' title='Comece Aqui' alt='Comece_Aqui'><Link to='/Videoaulas'>Comece Aqui</Link></button>
             </div>
             <div className='div_azul'>
                 <div className='div_diferenciais'>
@@ -100,7 +99,7 @@ function Cursos(){
             </p>
         </div>
         <img className='div_azul_cursos' src={azul} alt="" />
-     </>   
+    </>   
     )
 }
 export default Cursos
