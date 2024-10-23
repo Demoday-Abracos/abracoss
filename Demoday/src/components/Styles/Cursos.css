@@ -1,0 +1,234 @@
+.lllllllll{
+    margin-top: 400px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+    /* IMAGEM DE FUNDO */
+.lupa{
+    width: 25px;
+    height: 25px;
+}
+.buscar{
+    width: 130px;
+    height: 20px;
+    background-color: #FF6926;
+    border: 0px;
+}
+.buscar::placeholder{
+    color: #ffffff;
+    font-size: 15px;
+}
+
+
+.fundo_cursos{
+    background: url(../../../public/assets/images/fundo_cursos.png) no-repeat;
+    width: 100%;
+    height: 610px;
+    background-position: top bottom;
+    background-size: cover;
+}
+
+.barra_laranja_pesquisa{
+    background-color:#FF6926;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-items: center;
+    justify-content: end;
+    padding-right: 50px;
+}
+.palavra_aprender{
+    font-size: 4.5em;
+    font-weight: bold;
+    color: #fff;
+    padding: 130px 0 0 90px;
+}
+.ptt{
+    color: var(--primary-color);
+    font-size: 3.5em;
+    padding-left: 90px;
+}
+
+
+.div_branca{
+    background-color: #fff;
+    width: 520px;
+    height: 170px;
+    border-radius: 20px;
+    margin: 40px 0 0 90px;
+}
+.O_que_você_quer_aprender{
+    color: #222;
+    padding: 15px 0px 0px 40px;
+    font-size: 25px;
+}
+.lupa2{
+    width: 45px;
+    margin: 20px 20px 20px 20px;
+}
+.buscarr{
+    border: 0px;
+    width: 300px;
+    height: 20px;
+    border-bottom: #222 1px solid;
+}
+.colocar_display{   
+    display: flex;
+    align-items: center;
+}
+.buscarr::placeholder{
+    color: #333;
+    font-size: 20px;
+}
+
+
+
+    /* PARTE DA BANDEIRA: */
+.fundo_bandeira{
+    background: url(../../../public/assets/images/bandeira_refugiados.png) no-repeat;
+    width: 90%;
+    height: 610px;
+    background-size: cover;
+    margin: 80px 0px 80px 0px;
+    border-radius: 30px;
+}
+.colocar_displayy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aproveitar{
+    color: #fff;
+    margin: 112px 80px 90px 120px;
+    font-size: 40px;
+}
+.display_branca{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div_brancona{
+    width: 300px;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img_branca{
+    width: 180px;
+}
+.paragrafo_branco{
+    font-size: 20px;
+}
+
+
+
+    /* DIFERENCIAIS: */
+.diferenciais{
+    width: 88.3%;
+    margin-left: 100px;
+}
+.h1_diferenciais{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.colocar_displayyy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.p_beneficios{
+    font-size: 22px;
+}
+.ComeceAq{
+    background: #FF6926;
+    width: 160px;
+    height: 40px;
+    border-radius: 15px;
+    border: #222 2px solid;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.div_azul{
+    background-color: #1A5276;
+    margin-top: 60px;
+    width: 100%;
+    height: 340px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+.img_diferenciais{
+    width: 150px;
+    margin-bottom: 10px;
+}
+.parag_dif{
+    color: #FFF;
+    font-size: 20px;
+}
+.div_diferenciais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+    /* OBJETIVOS: */
+.objetivos{
+    display: flex;
+    justify-content: space-between;
+}
+.img_laranja1{
+    border-radius: 0px 10px 10px 0px;
+}
+.img_laranja2{
+    border-radius: 10px 0px 0px 10px;
+}
+.h1_obj{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p_obj{
+    width: 37%;
+    font-size: 23px;
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragrafos_obg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.paragrafo2_obj{
+    width: 30%;
+    font-size: 25px;
+    align-items: center;
+}
+
+
+.div_azul_cursos{
+    width: 100%;
+    margin-bottom: 20px;
+}

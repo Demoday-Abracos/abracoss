@@ -1,4 +1,4 @@
-
+import SobreNos from './components/SobreNos/SobreNos';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/home/Header';
@@ -6,12 +6,11 @@ import Psicologos from './components/psicologos/Psicologos';
 import Footer from './components/home/Footer';
 import Home from './components/home/Home';
 import Cards from './components/cards/Cards';
-<<<<<<< HEAD
 import Pagina1 from './components/cards/pag2/pagina1';
-import MapSection from "./components/Documentos";
-=======
-import Pagina1 from './components/cards/pag2/Pagina1';
->>>>>>> 8ab769b0fecc10fd0cebe6074c07fcbfe03eca24
+import MapSection from './components/Documentos/ContactForm';
+import Cursos from './components/Cursos/Cursos';
+import Empregabilidade from './components/Empregados/Empregabilidade'
+import Empresas from './components/Empresas/Empresas';
 function App() {
   return (
     <>
@@ -21,6 +20,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='cards' element={<Cards />} />
           <Route path='Psicologos' element={<Psicologos />} />
+          <Route path='Documentacao' element={<MapSection/>} />
           <Route path='hospital' element={<Pagina1/>}/>
           <Route path='mercado' element={<Pagina1/>}/>
           <Route path='Polícia' element={<Pagina1/>}/>
@@ -30,7 +30,10 @@ function App() {
           <Route path='Alimentação' element={<Pagina1/>}/>
           <Route path='MainSection' element={<Pagina1/>}/>
           <Route path='Alimentação' element={<Pagina1/>}/>
-
+          <Route path='SobreNos' element={<SobreNos/>}/>
+          <Route path='Cursos' element={<Cursos/>}/>
+          <Route path='Empregar' element={<Empregabilidade/>}/>
+          <Route path='Empresas' element={<Empresas/>}/>
         </Routes>
         <Footer />
       </Router>

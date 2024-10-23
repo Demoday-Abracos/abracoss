@@ -1,0 +1,73 @@
+.SobreNos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+}
+
+.SobreNos > div p {
+    font-size: 2em;
+}
+
+.SobreNos > div h1 {
+    font-size: 2.7em;
+    color: var(--primary-color);
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    margin-bottom: 210px;
+}
+
+.imgdescricao {
+    margin-bottom: 100px;
+}
+
+.Fundoslaranja {
+    background-color: var(--primary-color);
+    height: 370px;
+    width: 530px;
+    display: flex;
+    border-radius: 70px;
+    color: white;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.devs {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: auto;
+}
+
+.ryan {
+    width: 51%;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.textoazul {
+    color: #002266;
+}
+
+.titulodev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    
+}
+.titulodev > h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.img-laranja {
+    
+    margin-top: 60px;
+}
