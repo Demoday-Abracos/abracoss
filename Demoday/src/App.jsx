@@ -7,10 +7,11 @@ import Footer from './components/home/Footer';
 import Home from './components/home/Home';
 import Cards from './components/cards/Cards';
 import Pagina1 from './components/cards/pag2/pagina1';
-import MapSection from './components/Documentos/ContactForm';
+import Passaporte from './components/Documentos/Passaporte';
 import Cursos from './components/Cursos/Cursos';
 import Empregabilidade from './components/Empregados/Empregabilidade'
 import Empresas from './components/Empresas/Empresas';
+import Bandeira from './components/Documentos/Bandeira';
 function App() {
   return (
     <>
@@ -20,7 +21,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='cards' element={<Cards />} />
           <Route path='Psicologos' element={<Psicologos />} />
-          <Route path='Documentacao' element={<MapSection/>} />
           <Route path='hospital' element={<Pagina1/>}/>
           <Route path='mercado' element={<Pagina1/>}/>
           <Route path='Polícia' element={<Pagina1/>}/>
@@ -34,6 +34,8 @@ function App() {
           <Route path='Cursos' element={<Cursos/>}/>
           <Route path='Empregar' element={<Empregabilidade/>}/>
           <Route path='Empresas' element={<Empresas/>}/>
+          <Route path='Passaporte' element={<Passaporte/>}/>
+          <Route path='Bandeira' element={<Bandeira/>}/>
         </Routes>
         <Footer />
       </Router>
