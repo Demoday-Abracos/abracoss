@@ -63,7 +63,7 @@ function Doe() {
                 <div className='imagemdoe3'>
                     <div className='fundotorcida'>
                         <h1>Junte-se a nós e faça a <span>diferença!</span></h1>
-                        <button className='botonapoiar'>Quero Apoiar</button>
+                        <div className='taro'><button className='botonapoiar'>Quero Apoiar</button></div>
                     </div>
                 </div>
             </section>
