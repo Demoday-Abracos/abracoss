@@ -16,7 +16,7 @@ function Psicologos() {
         </section>
 
         <section className='bordaa'>
-            <Trabalhadores foto='assets/images/DrCamila.svg' titulo='Dra. Camilla loures' paragrafo='Psicologia do Trauma e Resiliência Emocional'/>
+            <Trabalhadores foto='assets/images/drca.svg' titulo='Dra. Camilla loures' paragrafo='Psicologia do Trauma e Resiliência Emocional'/>
             <Trabalhadores foto='assets/images/DrRichard.svg' titulo='Dr. Richard Gomes' paragrafo='Psicologia da Inclusão e Apoio a Imigrantes e Refugiados'/>
             <Trabalhadores foto='assets/images/DrRaquel.svg' titulo='Dra. Raquel sanches' paragrafo='Psicologia do Estresse e Bem-Estar Mental'/>
         </section>
