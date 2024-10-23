@@ -1,8 +1,8 @@
 import '../Styles/Documentos.css';
 
-function Processo ({ foto, titulo, texto }) {
+function Processo () {
     return (
-        <div className="container">
+        <div className="baixo-fomrs">
           <h1>Processo de regularização de imigração</h1>
           <ol>
             <li>Acordo do Mercosul para livre trânsito e residência.</li>

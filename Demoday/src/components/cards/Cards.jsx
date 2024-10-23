@@ -18,8 +18,8 @@ function Cards() {
 
     return(
         <>
-            <div>
-                <Slide slideData={data}/>
+            <div className='foto-cards-home'>
+                
             </div>
             <section className="laranja">
                 <h1>Categorias: </h1>

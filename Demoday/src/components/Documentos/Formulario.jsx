@@ -27,8 +27,9 @@ function Formulario() {
         <form onSubmit={handleSubmit} style={styles.form}>
           <div style={styles.jhow}>
             <div style={styles.inputGroup}>
-              <label>Nome:</label>
+              <label style={{color: '#fff'}}>Nome:</label>
               <input
+                placeholder='Nome:'
                 type="text"
                 name="nome"
                 value={formData.nome}
@@ -37,8 +38,9 @@ function Formulario() {
               />
             </div>
             <div style={styles.inputGroup}>
-              <label>E-mail:</label>
+              <label style={{color: '#fff'}}>E-mail:</label>
               <input
+                placeholder='E-mail::'
                 type="email"
                 name="email"
                 value={formData.email}
@@ -48,9 +50,10 @@ function Formulario() {
             </div>
           </div>
           <div style={styles.inputGroup}>
-            <label>Mensagem:</label>
+            <label style={{color: '#fff'}}>Mensagem:</label>
             <textarea
               name="mensagem"
+              placeholder='Mensagem:'
               value={formData.mensagem}
               onChange={handleChange}
               style={styles.textarea}
@@ -67,59 +70,60 @@ function Formulario() {
 
 const styles = {
   container: {
-    backgroundColor: '#FF6600', // Cor de fundo laranja
+    backgroundColor: '#FF6600', 
     padding: '20px',
     borderRadius: '10px',
-    width: '1000px', // Aumentando a largura
-    height: '650px', // Aumentando a altura
+    width: '1000px', 
+    height: '650px', 
     margin: '0 auto',
     textAlign: 'center',
-    position: 'relative', // Para posicionamento do botão
+    position: 'relative', 
   },
   title: {
-    color: '#000000', // Cor do texto do título
-    fontSize: '30px', // Tamanho da fonte
+    color: '#000000', 
+    fontSize: '30px', 
     marginBottom: '20px',
-    textAlign: 'center', // Centralizando o título
+    textAlign: 'center', 
     margin: '50px'
   },
   form: {
     display: 'flex',
     flexDirection: 'column',
     gap: '20px',
-    height: '100%', // Para garantir que o formulário use toda a altura
-    paddingBottom: '50px', // Espaço para o botão na parte inferior
+    height: '100%',
+    paddingBottom: '50px', 
   },
   inputGroup: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'flex-start',
+
   },
   input: {
     padding: '15px',
     borderRadius: '5px',
     border: '1px solid #ccc',
-    width: '360px',
+    width: '400px',
     margin: '10px 0px',
-    
+
   },
   textarea: {
     padding: '10px',
     borderRadius: '5px',
     border: '1px solid #ccc',
-    width: '97%',
-    height: '400px', // Aumentando ainda mais a altura da textarea
+    width: '90%',
+    height: '400px',
     margin: 'auto'
   },
   buttonContainer: {
     display: 'flex',
-    justifyContent: 'flex-end', // Para alinhar o botão à direita
+    justifyContent: 'flex-end',
     position: 'absolute',
-    bottom: '20px', // Distância do fundo
-    right: '20px', // Distância da direita
+    bottom: '20px',
+    right: '20px',
   },
   button: {
-    backgroundColor: '#0073e6', // Cor do botão
+    backgroundColor: '#1a5276',
     color: '#fff',
     padding: '10px 20px',
     borderRadius: '5px',
@@ -131,7 +135,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'space-evenly',
   }
-  
+
 };
 
 export default Formulario;
