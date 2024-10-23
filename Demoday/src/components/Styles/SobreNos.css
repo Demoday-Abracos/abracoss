@@ -2,28 +2,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80%;
     margin: auto;
-    gap: 30px;
-
+    gap: 50px;
 }
 
-.SobreNos>div p {
+.SobreNos > div p {
     font-size: 2em;
 }
 
-.SobreNos>div h1 {
-
+.SobreNos > div h1 {
     font-size: 2.7em;
     color: var(--primary-color);
-
 }
 
 .imgs {
     display: flex;
     flex-direction: column;
     margin: 100px;
-    margin-bottom: 250px;
+    margin-bottom: 210px;
 }
 
 .imgdescricao {
@@ -32,18 +28,19 @@
 
 .Fundoslaranja {
     background-color: var(--primary-color);
-    height: 450px;
-    width: 70%;
+    height: 370px;
+    width: 530px;
     display: flex;
-    border-radius: 100px;
+    border-radius: 70px;
     color: white;
     align-items: center;
     margin: auto;
+    overflow: hidden;
 }
 
 .devs {
     display: flex;
-
+    justify-content: space-around;
     padding: 20px;
     margin: auto;
 }
@@ -52,8 +49,6 @@
     width: 51%;
     display: flex;
     margin-bottom: 150px;
-
-
 }
 
 .textoazul {
@@ -65,6 +60,14 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 70px;
-    font-size: 1.7em;
+    
+}
+.titulodev > h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
 
+.img-laranja {
+    
+    margin-top: 60px;
 }
