@@ -27,7 +27,7 @@ function Formulario() {
         <form onSubmit={handleSubmit} style={styles.form}>
           <div style={styles.jhow}>
             <div style={styles.inputGroup}>
-              <label style={{color: '#fff'}}>Nome:</label>
+              {/* <label style={{color: '#fff'}}>Nome:</label> */}
               <input
                 placeholder='Nome:'
                 type="text"
@@ -38,7 +38,7 @@ function Formulario() {
               />
             </div>
             <div style={styles.inputGroup}>
-              <label style={{color: '#fff'}}>E-mail:</label>
+              {/* <label style={{color: '#fff'}}>E-mail:</label> */}
               <input
                 placeholder='E-mail::'
                 type="email"
@@ -50,7 +50,7 @@ function Formulario() {
             </div>
           </div>
           <div style={styles.inputGroup}>
-            <label style={{color: '#fff'}}>Mensagem:</label>
+            {/* <label style={{color: '#fff'}}>Mensagem:</label> */}
             <textarea
               name="mensagem"
               placeholder='Mensagem:'
