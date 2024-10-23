@@ -1,34 +1,30 @@
-.lllllllll{
-    margin-top: 400px;
-}
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-    /* IMAGEM DE FUNDO */
+    /* IMAGEM DE FUNDO */ /* IMAGEM DE 1547 */
 .lupa{
-    width: 25px;
-    height: 25px;
+    width: 1.616vw;
+    height: 1.616vw;
 }
 .buscar{
-    width: 130px;
-    height: 20px;
+    width: 8.403vw;
+    height: 1.3vw;
     background-color: #FF6926;
-    border: 0px;
+    border: 0vw;
 }
 .buscar::placeholder{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 0.903vw;
 }
 
 
 .fundo_cursos{
     background: url(../../../public/assets/images/fundo_cursos.png) no-repeat;
     width: 100%;
-    height: 610px;
+    height: 39.431vw;
     background-position: top bottom;
     background-size: cover;
 }
@@ -37,44 +33,44 @@
     background-color:#FF6926;
     display: flex;
     flex-direction: row;
-    height: 40px;
+    height: 2.586vw;
     align-items: center;
     justify-content: end;
-    padding-right: 50px;
+    padding-right: 3.232vw;
 }
 .palavra_aprender{
-    font-size: 4.5em;
+    font-size: 4.65vw;
     font-weight: bold;
     color: #fff;
-    padding: 130px 0 0 90px;
+    padding: 8.403vw 0 0 5.818vw;
 }
 .ptt{
     color: var(--primary-color);
-    font-size: 3.5em;
-    padding-left: 90px;
+    font-size: 3.5vw;
+    padding-left: 5.818vw;
 }
 
 
 .div_branca{
     background-color: #fff;
-    width: 520px;
-    height: 170px;
-    border-radius: 20px;
-    margin: 40px 0 0 90px;
+    width: 33.613vw;
+    height: 10.989vw;
+    border-radius: 1.293vw;
+    margin: 2.586vw 0 0 5.818vw;
 }
 .O_que_você_quer_aprender{
     color: #222;
-    padding: 15px 0px 0px 40px;
-    font-size: 25px;
+    padding: 0.97vw 0 0 2.586vw;
+    font-size: 1.616vw;
 }
 .lupa2{
-    width: 45px;
-    margin: 20px 20px 20px 20px;
+    width: 2.94vw;
+    margin: 1.293vw;
 }
 .buscarr{
     border: 0px;
-    width: 300px;
-    height: 20px;
+    width: 19.392vw;
+    height: 1.293vw;
     border-bottom: #222 1px solid;
 }
 .colocar_display{   
@@ -83,7 +79,7 @@
 }
 .buscarr::placeholder{
     color: #333;
-    font-size: 20px;
+    font-size: 1.293vw;
 }
 
 
@@ -92,10 +88,10 @@
 .fundo_bandeira{
     background: url(../../../public/assets/images/bandeira_refugiados.png) no-repeat;
     width: 90%;
-    height: 610px;
+    height: 39.431vw;
     background-size: cover;
-    margin: 80px 0px 80px 0px;
-    border-radius: 30px;
+    margin: 5.171vw 0px 5.171vw 0px;
+    border-radius: 1.939vw;
 }
 .colocar_displayy{
     display: flex;
@@ -104,28 +100,28 @@
 }
 .aproveitar{
     color: #fff;
-    margin: 112px 80px 90px 120px;
-    font-size: 40px;
+    margin: 7.24vw 5.171vw 5.818vw 7.757vw;
+    font-size: 2.586vw;
 }
 .display_branca{
     display: flex;
     justify-content: space-evenly;
 }
 .div_brancona{
-    width: 300px;
-    height: 270px;
+    width: 19.392vw;
+    height: 17.453vw;
     background-color: #fff;
-    border-radius: 17px;
+    border-radius: 1vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .img_branca{
-    width: 180px;
+    width: 11.635vw;
 }
 .paragrafo_branco{
-    font-size: 20px;
+    font-size: 1.293vw;
 }
 
 
@@ -133,12 +129,12 @@
     /* DIFERENCIAIS: */
 .diferenciais{
     width: 88.3%;
-    margin-left: 100px;
+    margin-left: 6.464vw;
 }
 .h1_diferenciais{
-    font-size: 38px;
+    font-size: 2.456vw;
     font-weight: bold;
-    margin-bottom: 12px;
+    margin-bottom: 0.776vw;
 }
 .colocar_displayyy{
     display: flex;
@@ -146,38 +142,38 @@
     align-items: center;
 }
 .p_beneficios{
-    font-size: 22px;
+    font-size: 1.422vw;
 }
 .ComeceAq{
     background: #FF6926;
-    width: 160px;
-    height: 40px;
-    border-radius: 15px;
+    width: 10.343vw;
+    height: 2.586vw;
+    border-radius: 0.97vw;
     border: #222 2px solid;
     color: #fff;
-    font-size: 14px;
+    font-size: 0.905vw;
     font-weight: bolder;
 }
 
 
 .div_azul{
     background-color: #1A5276;
-    margin-top: 60px;
+    margin-top: 3.878vw;
     width: 100%;
-    height: 340px;
-    border-radius: 20px;
+    height: 21.978vw;
+    border-radius: 1.293vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 150px;
+    margin-bottom: 9.696vw;
 }
 .img_diferenciais{
-    width: 150px;
-    margin-bottom: 10px;
+    width: 9.696vw;
+    margin-bottom: 0,646vw;
 }
 .parag_dif{
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.293vw;
 }
 .div_diferenciais{
     display: flex;
@@ -194,22 +190,24 @@
     justify-content: space-between;
 }
 .img_laranja1{
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 0.646vw 0.646vw 0px;
+    width: 22.813vw;
 }
 .img_laranja2{
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 0.646vw 0px 0px 0.646vw;
+    width: 22.813vw;
 }
 .h1_obj{
-    font-size: 40px;
+    font-size: 2.586vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .p_obj{
     width: 37%;
-    font-size: 23px;
+    font-size: 1.487vw;
     display: flex;
-    margin-left: 40px;
+    margin-left: 2.586vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -219,16 +217,16 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 80px;
+    margin-top: 5.171vw;
 }
 .paragrafo2_obj{
     width: 30%;
-    font-size: 25px;
+    font-size: 1.616vw;
     align-items: center;
 }
 
 
 .div_azul_cursos{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.293vw;
 }
