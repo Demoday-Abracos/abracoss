@@ -7,8 +7,8 @@ function AreaRefugio() {
                 <div className='baix2'>
                     <h1>Refugiados no Brasil</h1>
                     <div className='emprego'>
-                        <button className='button-primary'><Link to='/Empregar'>Procurando EMPREGO?</Link></button>
-                        <button className='button-secondary'><Link to='/Empresas'>Querendo CONTRATAR?</Link></button>
+                        <button className='button-primary'><Link to='/Empregar'>EMPREGO</Link></button>
+                        <button className='button-secondary'><Link to='/Empresas'>CONTRATAÇÃO</Link></button>
                     </div>
                     <div className='preparadoo-ok'>
                         <h1>Preparado para começar?</h1>
