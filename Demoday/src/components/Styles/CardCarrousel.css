@@ -49,6 +49,18 @@
 
 /*Pagina dos cards*/
 
+.fra_efeito{
+    color: #fff;
+}
+
+.conectarr{
+    color: var(--primary-color);
+}
+
+.idiomaa{
+    color: #4B92DB;
+}
+
 .img-fundo {
     background: url(../../../public/assets/images/imagem-cards.svg) no-repeat;
     background-size: cover;
