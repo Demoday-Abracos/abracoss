@@ -13,6 +13,9 @@ import Empregabilidade from './components/Empregados/Empregabilidade'
 import Empresas from './components/Empresas/Empresas';
 <<<<<<< HEAD
 import Bandeira from './components/Documentos/Bandeira';
+import Formulario from './components/Documentos/Formulario';
+import Regularizacao from './components/Documentos/Regularizacao';
+import Mapa from './components/Documentos/Mapa';
 =======
 import Videoaulas from './components/videoaulas/videoaulas';
 >>>>>>> d6581e97d422dbb75fcbe33de6cb870cd01c2700
@@ -40,6 +43,9 @@ function App() {
           <Route path='Cursos' element={<Cursos/>}/>
           <Route path='Empregar' element={<Empregabilidade/>}/>
           <Route path='Empresas' element={<Empresas/>}/>
+          <Route path='Fomulario' element={<Formulario/>}/>
+          <Route path='Regularizacao' element={<Regularizacao/>}/>
+          <Route path='Mapa' element={<Mapa/>}/>
 <<<<<<< HEAD
           <Route path='Passaporte' element={<Passaporte/>}/>
           <Route path='Bandeira' element={<Bandeira/>}/>
