@@ -1,5 +1,5 @@
 import SobreNos from './components/SobreNos/SobreNos';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import './App.css';
 import Header from './components/home/Header';
 import Psicologos from './components/psicologos/Psicologos';
@@ -12,6 +12,8 @@ import Cursos from './components/Cursos/Cursos';
 import Empregabilidade from './components/Empregados/Empregabilidade'
 import Empresas from './components/Empresas/Empresas';
 function App() {
+
+  
   return (
     <>
       <Router>
