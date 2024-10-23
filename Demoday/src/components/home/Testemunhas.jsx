@@ -10,7 +10,7 @@ function Testemunhas() {
                     <button className="prev-btn">{"<"}</button>
 
                     <div className="testimonial">
-                        <img src="assets/images/david.png" alt="David Mwangi" className="testimonial-img" />
+                        <img src="assets/images/davidM.svg" alt="David Mwangi" className="testimonial-img" />
                         <div className="testimonial-content">
                             <h3>David Mwangi</h3>
                             <div className="stars">★★★★★</div>
@@ -19,7 +19,7 @@ function Testemunhas() {
                     </div>
 
                     <div className="testimonial">
-                        <img src="assets/images/samuel.png" alt="Samuel Okoru" className="testimonial-img" />
+                        <img src="assets/images/samuel.svg" alt="Samuel Okoru" className="testimonial-img" />
                         <div className="testimonial-content">
                             <h3>Samuel Okoru</h3>
                             <div className="stars">★★★★★</div>
