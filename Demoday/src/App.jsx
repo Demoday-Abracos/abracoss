@@ -12,6 +12,7 @@ import Empregabilidade from './components/Empregados/Empregabilidade'
 import Empresas from './components/Empresas/Empresas';
 import Videoaulas from './components/videoaulas/Videoaulas';
 import Documentos from './components/Documentos/Documentos';
+import Doe from './components/Doe/Doe';
 function App() {
 
   
@@ -22,6 +23,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='cards' element={<Cards />} />
+          <Route path='Doe' element={<Doe />} />
           <Route path='Psicologos' element={<Psicologos />} />
           <Route path='hospital' element={<Pagina1/>}/>
           <Route path='mercado' element={<Pagina1/>}/>
