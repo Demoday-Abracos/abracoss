@@ -11,6 +11,7 @@ import MapSection from './components/Documentos/ContactForm';
 import Cursos from './components/Cursos/Cursos';
 import Empregabilidade from './components/Empregados/Empregabilidade'
 import Empresas from './components/Empresas/Empresas';
+import Videoaulas from './components/videoaulas/videoaulas';
 function App() {
 
   
@@ -36,6 +37,7 @@ function App() {
           <Route path='Cursos' element={<Cursos/>}/>
           <Route path='Empregar' element={<Empregabilidade/>}/>
           <Route path='Empresas' element={<Empresas/>}/>
+          <Route path='Videoaulas' element={<Videoaulas/>}/>
         </Routes>
         <Footer />
       </Router>
