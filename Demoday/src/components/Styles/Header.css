@@ -42,7 +42,7 @@ a {
     transform: scaleY(1);
 }
 .logo img {
-    max-width: 220px;
+    max-width: 280px;
 }
 .area_cadastro {
     display: flex;

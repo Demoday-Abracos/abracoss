@@ -1,4 +1,4 @@
-
+import SobreNos from './components/SobreNos/SobreNos';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/home/Header';
@@ -9,6 +9,8 @@ import Cards from './components/cards/Cards';
 import Pagina1 from './components/cards/pag2/pagina1';
 import MapSection from './components/Documentos/ContactForm';
 import Cursos from './components/Cursos/Cursos';
+import Empregabilidade from './components/Empregados/Empregabilidade'
+import Empresas from './components/Empresas/Empresas';
 function App() {
   return (
     <>
@@ -28,7 +30,10 @@ function App() {
           <Route path='Alimentação' element={<Pagina1/>}/>
           <Route path='MainSection' element={<Pagina1/>}/>
           <Route path='Alimentação' element={<Pagina1/>}/>
+          <Route path='SobreNos' element={<SobreNos/>}/>
           <Route path='Cursos' element={<Cursos/>}/>
+          <Route path='Empregar' element={<Empregabilidade/>}/>
+          <Route path='Empresas' element={<Empresas/>}/>
 
         </Routes>
         <Footer />
