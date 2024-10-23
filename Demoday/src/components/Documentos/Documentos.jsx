@@ -15,7 +15,7 @@ function Documentos(){
                 <Regularizacao></Regularizacao>+
                 <Formulario></Formulario>
                 <Processo></Processo> 
-                <Mapa></Mapa>
+                {/* <Mapa></Mapa> */}
             </div>
         </section>
     )
