@@ -146,9 +146,9 @@
 }
 .ComeceAq{
     background: var(--primary-color);
-    width: 160px;
-    height: 40px;
-    border-radius: 10px;
+    width: 10.343vw;
+    height: 2.586vw;
+    border-radius: 0.646vw;
     border: none;
     color: #fff;
     font-size: 0.905vw;
