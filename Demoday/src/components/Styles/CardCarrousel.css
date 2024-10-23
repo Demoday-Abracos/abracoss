@@ -63,9 +63,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 240px;
+    width: 280px;
     gap: 20px;
-    height: 300px;
+    height: 330px;
     padding: 20px;
     background-color: var(--terciary-color);
     border-radius: 40px;
