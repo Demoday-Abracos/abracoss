@@ -70,7 +70,7 @@ const styles = {
     backgroundColor: '#FF6600', // Cor de fundo laranja
     padding: '20px',
     borderRadius: '10px',
-    width: '800px', // Aumentando a largura
+    width: '1000px', // Aumentando a largura
     height: '650px', // Aumentando a altura
     margin: '0 auto',
     textAlign: 'center',

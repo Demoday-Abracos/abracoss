@@ -53,14 +53,17 @@ h1 {
 }
 
 ol {
-  list-style-position: inside;
-  padding: 0;
+  list-style-position: outside; /* Deixa os números alinhados fora da área de texto */
+  padding-left: 40px; /* Adiciona espaçamento entre os números e o texto */
   font-size: 2rem; /* Aumentando o tamanho da fonte das listas */
+  text-align: left; /* Garante que o texto fique alinhado à esquerda */
 }
 
 li {
   margin-bottom: 10px;
+  text-align: left; /* Alinha o texto das listas à esquerda */
 }
+
 
 
   
