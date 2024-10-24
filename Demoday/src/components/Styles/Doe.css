@@ -36,6 +36,7 @@
 
 .hrt h1{
     color: var(--primary-color);
+    font-size: 3em;
 }
 
 .threcards{
@@ -131,6 +132,10 @@
     justify-content: center;
     flex-direction: column;
 
+}
+
+.fundotorcida h1{
+    font-size: 3em;
 }
 
 .fundotorcida span{

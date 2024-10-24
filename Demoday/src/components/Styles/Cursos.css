@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-    /* IMAGEM DE FUNDO */ /* IMAGEM DE 1547 */
-.lupa{
+    /* IMAGEM DE FUNDO */  /* RESOLUÇÃO FEITA COM 1547px */
+.lup{
     width: 1.616vw;
     height: 1.616vw;
 }
@@ -36,7 +36,7 @@
     height: 2.586vw;
     align-items: center;
     justify-content: end;
-    padding-right: 3.232vw;
+    padding-right: 80px;
 }
 .palavra_aprender{
     font-size: 4.65vw;
@@ -70,7 +70,7 @@
 .buscarr{
     border: 0px;
     width: 19.392vw;
-    height: 1.293vw;
+    height: 1.593vw;
     border-bottom: #222 1px solid;
 }
 .colocar_display{   
@@ -175,7 +175,8 @@
 }
 .img_diferenciais{
     width: 9.696vw;
-    margin-bottom: 0,646vw;
+    margin-bottom: 0.7vw;
+    border-radius: 20px;
 }
 .parag_dif{
     color: #FFF;
@@ -235,4 +236,29 @@
 .div_azul_cursos{
     width: 100%;
     margin-bottom: 1.293vw;
+}
+
+
+/*Visualização Smartphone*/
+@media only screen and (max-width:680px){
+    .barra_laranja_pesquisa{
+        height: 3.586vw;
+        padding-right: 9vw;
+    }
+    .lup{
+        width: 2vw;
+        height: 2vw;
+    }
+    .buscar{
+        width: 14.403vw;
+        height: 3vw;
+        background-color: #FF6926;
+        border: 0vw;
+    }
+    .buscar::placeholder{
+        font-size: 1.7vw;
+    }
+    .fundo_cursos{
+        display: flex;
+    }
 }
