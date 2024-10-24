@@ -7,7 +7,7 @@ function Header() {
         <>
             <header>
                 <div className="logo">
-                    <Link to='/'><img src="assets/images/logo.png" alt="Logo" /></Link>
+                    <Link to='/'><img src="assets/images/Logo.png" alt="Logo" /></Link>
                 </div>
                 <nav>
                     <ul>
@@ -17,6 +17,7 @@ function Header() {
                         <li className='nav-link'><Link to='cards'>Cards</Link></li>
                         <li className='nav-link'><Link to='Documentacao'>Documentação</Link></li>
                         <li className='nav-link'><Link to='SobreNos'>Sobre</Link></li>
+                        <li className='nav-link'><Link to='Doe'>Doe</Link></li>
                     </ul>
                 </nav>
                 <div className='area_cadastro'>
