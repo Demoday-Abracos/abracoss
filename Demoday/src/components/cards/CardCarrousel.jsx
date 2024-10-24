@@ -9,10 +9,10 @@ const CardCarousel = () => {
     const navigate = useNavigate();
 
     const cards = [
-        { image: 'assets/images/remedio.gif', label: 'Hospital', route: '/hospital' },
+        { image: 'assets/images/amizade.gif', label: 'Saudações', route: '/Saudações' },
         { image: 'assets/images/fazer-compras.gif', label: 'Mercado', route: '/mercado' },
         { image: 'assets/images/onibus-escolar.gif', label: 'Transporte', route: '/Transporte' },
-        { image: null, label: 'Alimentação', route: '/alimentacao' },
+        { image: 'assets/images/remedio.gif', label: 'Hospital', route: '/hospital' },
         { image: null, label: 'Banco', route: '/Banco' },
     ];
 

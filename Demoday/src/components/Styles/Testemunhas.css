@@ -117,12 +117,14 @@
     width: 700px;
 }
 .emprego .button-secondary {
-    padding: 30px;
+    padding: 13px;
     cursor: pointer;
     border-top-left-radius: 100px;
     width: 40%;
+    text-align: center;
     background-color: #4B92DB;
     border: none;
+    color: #fff;
     transition: transform 0.2s ease;
     font-size: 1.3em;
 }
@@ -132,9 +134,11 @@
 .emprego .button-primary {
     border: none;
     font-size: 1.3em;
-    padding: 30px;
+    padding: 13px;
     width: 40%;
     cursor: pointer;
+    color: #fff;
+    text-align: center;
     border-bottom-right-radius: 100px;
     background-color: #1A5276;
     transition: transform 0.2s ease;

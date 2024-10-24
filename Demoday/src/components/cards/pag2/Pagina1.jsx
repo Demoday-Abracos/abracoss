@@ -27,7 +27,7 @@ function Pagina1() {
                 <h1 className='fra_efeito'> <span className='conectarr'>Conecte-se</span> de forma rápida e <br /> simples em qualquer <span className='idiomaa'>idioma.</span></h1>
             </div>
             <div className='button'>
-                <button onClick={mudarCondicao} name='Saudacao' className={categoriaSelecionada === 'Saudacao' ? 'selecionado' : ''}>Saudações</button>
+                <button onClick={mudarCondicao} name='Saudações' className={categoriaSelecionada === 'Saudações' ? 'selecionado' : ''}>Saudações</button>
                 <button onClick={mudarCondicao} name='Hospital' className={categoriaSelecionada === 'Hospital' ? 'selecionado' : ''}>Hospital</button>
                 <button onClick={mudarCondicao} name='Mercado' className={categoriaSelecionada === 'Mercado' ? 'selecionado' : ''}>Mercado</button>
                 <button onClick={mudarCondicao} name='Transporte' className={categoriaSelecionada === 'Transporte' ? 'selecionado' : ''}>Transporte</button>
@@ -39,7 +39,7 @@ function Pagina1() {
                 <button onClick={mudarCondicao} name='Documentos' className={categoriaSelecionada === 'Documentos' ? 'selecionado' : ''}>Documentos</button>
             </div>
 
-            {categoriaSelecionada === 'Saudacao' && (
+            {categoriaSelecionada === 'Saudações' && (
                 <>
                     <div className='titulo-card'>
                         <h1>Saudações</h1>
@@ -144,7 +144,7 @@ function Pagina1() {
                         <Cards2 icon='assets/images/comunicacaoCards.png' text='Onde fica o Transporte?' />
                     </section>
                 </>
-                
+
             )}
             {categoriaSelecionada === 'Compras' && (
                 <>
@@ -159,7 +159,7 @@ function Pagina1() {
                     </section>
                 </>
             )}
-             {categoriaSelecionada === 'Escola' && (
+            {categoriaSelecionada === 'Escola' && (
                 <>
                     <div className='titulo-card'>
                         <h1>Transporte</h1>
@@ -172,7 +172,7 @@ function Pagina1() {
                     </section>
                 </>
             )}
-             {categoriaSelecionada === 'Documentos' && (
+            {categoriaSelecionada === 'Documentos' && (
                 <>
                     <div className='titulo-card'>
                         <h1>Transporte</h1>

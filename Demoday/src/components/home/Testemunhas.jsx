@@ -19,13 +19,13 @@ function Testemunhas() {
         },
         {
             name: "Amina Yusuf",
-            image: "assets/images/amina.svg",
+            image: "assets/images/mulher-comentario.svg",
             text: "Fiquei impressionada com a atenção aos detalhes e o quanto me ajudaram a entender todo o processo burocrático de forma clara e objetiva.",
             stars: "★★★★★"
         },
         {
-            name: "Mohammed Ali",
-            image: "assets/images/mohammed.svg",
+            name: "Carla Ali",
+            image: "assets/images/mulherColombiana.svg",
             text: "Recebi todo o suporte necessário, desde a documentação até o apoio emocional, o que foi extremamente valioso para mim.",
             stars: "★★★★★"
         }

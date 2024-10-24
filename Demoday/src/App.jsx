@@ -34,6 +34,7 @@ function App() {
           <Route path='Alimentação' element={<Pagina1/>}/>
           <Route path='MainSection' element={<Pagina1/>}/>
           <Route path='Alimentação' element={<Pagina1/>}/>
+          <Route path='Saudações' element={<Pagina1/>}/>
           <Route path='SobreNos' element={<SobreNos/>}/>
           <Route path='Cursos' element={<Cursos/>}/>
           <Route path='Empregar' element={<Empregabilidade/>}/>
