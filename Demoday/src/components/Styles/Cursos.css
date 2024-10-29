@@ -226,6 +226,11 @@
     justify-content: space-around;
     margin-top: 5.171vw;
 }
+.paragrafo1_obj{
+    width: 30%;
+    font-size: 1.616vw;
+    align-items: center;
+}
 .paragrafo2_obj{
     width: 30%;
     font-size: 1.616vw;
@@ -241,6 +246,9 @@
 
 /*Visualização Smartphone*/
 @media only screen and (max-width:680px){
+    .fundo_cursos{
+        height: 41.431vw;
+    }
     .barra_laranja_pesquisa{
         height: 3.586vw;
         padding-right: 9vw;
@@ -265,9 +273,144 @@
         margin-top: 8.403vw
     }
     .palavra_aprender{
-
-}
+        font-size: 30px;
+        padding-top: 17vw;
+    }
     .ptt{
+        font-size: 25px;
+    }
 
-}
+    .div_branca{
+        width: 250px;
+        height: 90px;
+        margin-top: 17vw
+    }
+    .O_que_você_quer_aprender{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .lupa2{
+        width: 25px;
+        margin: 15px 10px 25px 20px;
+    }
+    .buscarr{
+        width: 170px;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+    .buscarr::placeholder{
+        color: #555;
+        font-size: 15px;
+    }
+
+    .fundo_bandeira{
+        width: 100%;
+        height: 900px;
+        margin-bottom: 40px;
+    }
+    .aproveitar{
+        color: #fff;
+        margin: 7.24vw 5.171vw 5.818vw 7.757vw;
+        font-size: 25px;
+    }
+    .display_branca{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div_brancona{
+        width: 240px;
+        height: 200px;
+        background-color: #fff;
+        border-radius: 2vw;
+        margin: 22px;
+    }
+    .img_branca{
+        width: 140px;
+    }
+    .paragrafo_branco{
+        font-size: 18px;
+    }
+
+    .fundo_bandeira{
+        border-radius: 20px;
+    }
+    .diferenciais{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .h1_diferenciais{
+        font-size: 45px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    .colocar_displayyy{
+        flex-direction: column;
+    }
+    .p_beneficios{
+        font-size: 30px;
+    }
+    .ComeceAq{
+        width: 350px;
+        height: 50px;
+        border-radius: 16px;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .div_azul{
+        width: 100%;
+        height: 1800px;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+    .img_diferenciais{
+        width: 220px;
+    }
+    .parag_dif{
+        font-size: 35px;
+    }
+    .div_diferenciais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+            /* OBJETIVOS: */
+    .img_laranja1{
+        width: 90px;
+        height: 100px;
+    }
+    .img_laranja2{
+        width: 90px;
+        height: 100px;
+    }
+    .h1_obj{
+        font-size: 20px;
+    }
+    .p_obj{
+        width: 54%;
+        font-size: 10px;
+        margin-left: 2vw;
+    }
+
+    .paragrafos_obg{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .paragrafo1_obj{
+        width: 30%;
+        font-size: 15px;
+        align-items: center;
+    }
+    .paragrafo2_obj{
+        width: 30%;
+        font-size: 15px;
+        align-items: center;
+    }
 }

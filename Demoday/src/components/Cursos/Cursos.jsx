@@ -92,11 +92,12 @@ function Cursos(){
         </div>
 
         <div className='paragrafos_obg'>
-            <p className='paragrafo2_obj'>
-                1. Permitir que refugiados e imigrantes interajam com a sociedade e tenham acesso aos seus  direitos básicos.
+            <p className='paragrafo1_obj'>
+                1. Apoio a transição para o mercado de trabalho, com o objetivo de promover a total inclusão social e financeira desses indivíduos.
+                
             </p>
             <p className='paragrafo2_obj'>
-                2. Apoio a transição para o mercado de trabalho, com o objetivo de promover a total inclusão social e financeira desses indivíduos.
+                2. Permitir que refugiados e imigrantes interajam com a sociedade e tenham acesso aos seus  direitos básicos.
             </p>
         </div>
         <img className='div_azul_cursos' src={azul} alt="listra azul no final da tela" />
