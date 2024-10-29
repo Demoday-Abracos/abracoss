@@ -13,12 +13,14 @@ import Empresas from './components/Empresas/Empresas';
 import Videoaulas from './components/videoaulas/Videoaulas';
 import Documentos from './components/Documentos/Documentos';
 import Doe from './components/Doe/Doe';
+import GTranslate from './components/GTranslate';
 function App() {
 
   
   return (
     <>
       <Router>
+        <GTranslate></GTranslate>
         <Header />
         <Routes>
           <Route path='/' element={<Home/>} />
