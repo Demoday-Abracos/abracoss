@@ -7,10 +7,11 @@ import '../../App.css'
 function Home() {
     const firstSliderData = [
         { id: '1', image: 'assets/images/fundo-home.svg' },
-        { id: '2', image: 'https://sujeitoprogramador.com/wp-content/uploads/2022/08/home.png' },
+        
     ];
     return(
         <>
+        
         <Slide slideData={firstSliderData}></Slide>
         
             <section className='sec-principal'>
@@ -52,6 +53,7 @@ function Home() {
                 <Counter endValue={1200} text="Alunos de português" />
             </main>
             <AreaRefugio></AreaRefugio>
+            
         </>
     )
 }

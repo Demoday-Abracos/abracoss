@@ -1,17 +1,17 @@
 import '../Styles/SobreNos.css'
- 
+import { Link } from 'react-router-dom'
 
-function Desenvolvedores ({imagens, texto,titulo ,foto1, foto2 ,texto2}) {
+function Desenvolvedores ({imagens, texto,titulo ,foto1, foto2 ,texto2, LLink}) {
     return (
         <>
         <div className='Fundoslaranja'>
-            <div>
+            <div className='img-laranja'>
                 <img src={imagens} alt="" />
             </div>
-            <div>
+            <div className='dentro-laranja'>
                 <h1>{titulo}</h1>
                 <div>
-                    <img src={foto1} alt="" />
+                    <Link to={LLink} target='_blank'><img src={foto1} alt="" /></Link>
                     <img src={foto2} alt="" />
                 </div>
 

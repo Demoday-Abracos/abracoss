@@ -1,25 +1,56 @@
-import Slide from "../home/Slide"
-import '../Styles/Cards.css'
-import CardCarousel from "./CardCarrousel"
-import CardCarousel1 from "./CardCarrousel1"
-import CardCarousel2 from "./CardCarrousel2"
+import React, { useState } from 'react';
+import Slide from "../home/Slide";
+import '../Styles/Cards.css';
+import CardCarousel from "./CardCarrousel";
+import CardCarousel1 from "./CardCarrousel1";
+import CardCarousel2 from "./CardCarrousel2";
+
+
 function Cards() {
+    const [showCover, setShowCover] = useState(true);
     const data = [
-        {id: '1', image: 'assets/images/capaMulheres.png'},
-        {id: '2', image: 'https://sujeitoprogramador.com/wp-content/uploads/2022/08/home.png'},
-    ] 
+        {id: '1', image: 'assets/images/capaMulheres.svg'},
+    ];
+
+    const playVideo = () => {
+        setShowCover(false);
+    };
+
     return(
         <>
-            <div>
-                <Slide slideData={data}/>
+            <div className='foto-cards-home'>
+                
             </div>
             <section className="laranja">
-                <h1>Qual a fala: </h1>
+                <h1>Categorias: </h1>
             </section>
             <CardCarousel/>
             <CardCarousel1/>
             <CardCarousel2/>
+
+            <section className="como-utilizar">
+                <h1>Como utilizar os Cards?</h1>
+            </section>
+
+            <div className="video-container">
+                {showCover && (
+                    <div className="cover" onClick={playVideo}>
+                        <img src="assets/images/img-youtube.svg" alt="Capa do Vídeo" />
+                        <div className="play-button">▶</div>
+                    </div>
+                )}
+                <iframe 
+                    width="840" 
+                    height="470" 
+                    src={`https://www.youtube.com/embed/4y3C7tjMJr0?si=XcbhlLR1tzIRK3u-${!showCover ? '&autoplay=1' : ''}`}
+                    title="YouTube video player" 
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" 
+                    allowFullScreen
+                ></iframe>
+            </div>
         </>
-    )
+    );
 }
-export default Cards
+export default Cards;

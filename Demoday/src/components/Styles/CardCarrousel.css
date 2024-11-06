@@ -49,6 +49,18 @@
 
 /*Pagina dos cards*/
 
+.fra_efeito{
+    color: #fff;
+}
+
+.conectarr{
+    color: var(--primary-color);
+}
+
+.idiomaa{
+    color: #4B92DB;
+}
+
 .img-fundo {
     background: url(../../../public/assets/images/imagem-cards.svg) no-repeat;
     background-size: cover;
@@ -63,9 +75,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 240px;
+    width: 280px;
     gap: 20px;
-    height: 300px;
+    height: 330px;
     padding: 20px;
     background-color: var(--terciary-color);
     border-radius: 40px;
@@ -89,7 +101,7 @@
     justify-content: space-evenly;
 }
 .titulo-card {
-    margin: 20px 0 20px 70px;
+    margin: 20px 0 20px 30px;
 }
 .button {
     display: flex;
@@ -106,7 +118,6 @@
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
     margin: 10px;
-    
 }
 
 .button {
@@ -123,4 +134,7 @@
     color: white; 
     border: 2px solid #FF6926; /* Borda diferente para o botão selecionado */
     transform: scale(1.05);
+}
+.parte-cards-cima {
+    margin-bottom: 70px;
 }

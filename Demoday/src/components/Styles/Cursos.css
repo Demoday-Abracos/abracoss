@@ -1,34 +1,30 @@
-.lllllllll{
-    margin-top: 400px;
-}
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-    /* IMAGEM DE FUNDO */
-.lupa{
-    width: 25px;
-    height: 25px;
+    /* IMAGEM DE FUNDO */  /* RESOLUÇÃO FEITA COM 1547px */
+.lup{
+    width: 1.616vw;
+    height: 1.616vw;
 }
 .buscar{
-    width: 130px;
-    height: 20px;
+    width: 8.403vw;
+    height: 1.3vw;
     background-color: #FF6926;
-    border: 0px;
+    border: 0vw;
 }
 .buscar::placeholder{
     color: #ffffff;
-    font-size: 15px;
+    font-size: 0.903vw;
 }
 
 
 .fundo_cursos{
     background: url(../../../public/assets/images/fundo_cursos.png) no-repeat;
     width: 100%;
-    height: 610px;
+    height: 39.431vw;
     background-position: top bottom;
     background-size: cover;
 }
@@ -37,44 +33,45 @@
     background-color:#FF6926;
     display: flex;
     flex-direction: row;
-    height: 40px;
+    height: 2.586vw;
     align-items: center;
     justify-content: end;
-    padding-right: 50px;
+    padding-right: 80px;
 }
 .palavra_aprender{
-    font-size: 4.5em;
+    font-size: 4.65vw;
     font-weight: bold;
     color: #fff;
-    padding: 130px 0 0 90px;
+    padding: 8.403vw 0 0 5.818vw;
 }
 .ptt{
     color: var(--primary-color);
-    font-size: 3.5em;
-    padding-left: 90px;
+    font-size: 3.5vw;
+    padding-left: 5.818vw;
 }
 
 
 .div_branca{
     background-color: #fff;
-    width: 520px;
-    height: 170px;
-    border-radius: 20px;
-    margin: 40px 0 0 90px;
+    width: 33.613vw;
+    height: 10.989vw;
+    border-radius: 1.293vw;
+    margin: 2.586vw 0 0 5.818vw;
 }
 .O_que_você_quer_aprender{
     color: #222;
-    padding: 15px 0px 0px 40px;
-    font-size: 25px;
+    padding: 0.97vw 0 0 2.586vw;
+    font-size: 1.616vw;
 }
 .lupa2{
-    width: 45px;
-    margin: 20px 20px 20px 20px;
+    width: 2.94vw;
+    margin: 1.293vw;
 }
 .buscarr{
     border: 0px;
-    width: 300px;
-    height: 20px;
+    width: 19.392vw;
+    height: 1.593vw;
+    border-bottom: #222 1px solid;
 }
 .colocar_display{   
     display: flex;
@@ -82,31 +79,343 @@
 }
 .buscarr::placeholder{
     color: #333;
-    font-size: 20px;
+    font-size: 1.293vw;
 }
 
 
 
     /* PARTE DA BANDEIRA: */
-.bandeira_refugiados{
-    margin: 70px 0px 50px 0px;
-    width: 1400px;
+.fundo_bandeira{
+    background: url(../../../public/assets/images/bandeira_refugiados.png) no-repeat;
+    width: 90%;
+    height: 39.431vw;
+    background-size: cover;
+    margin: 5.171vw 0px 5.171vw 0px;
+    border-radius: 1.939vw;
 }
 .colocar_displayy{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.aproveitar{
+    color: #fff;
+    margin: 7.24vw 5.171vw 5.818vw 7.757vw;
+    font-size: 2.586vw;
+}
+.display_branca{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div_brancona{
+    width: 19.392vw;
+    height: 17.453vw;
+    background-color: #fff;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.img_branca{
+    width: 11.635vw;
+}
+.paragrafo_branco{
+    font-size: 1.293vw;
 }
 
 
 
     /* DIFERENCIAIS: */
 .diferenciais{
-    width: 90%;
-    margin-left: 100px;
-    align-items: center;
+    width: 88.3%;
+    margin-left: 6.464vw;
 }
-
+.h1_diferenciais{
+    font-size: 2.456vw;
+    font-weight: bold;
+    margin-bottom: 0.776vw;
+}
 .colocar_displayyy{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.p_beneficios{
+    font-size: 1.422vw;
+}
+.ComeceAq{
+    background: var(--primary-color);
+    width: 10.343vw;
+    height: 2.586vw;
+    border-radius: 0.646vw;
+    border: none;
+    color: #fff;
+    font-size: 0.905vw;
+    font-weight: bolder;
+    transition: transform 0.3s ease;
+}
+
+.ComeceAq:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+.div_azul{
+    background-color: #1A5276;
+    margin-top: 3.878vw;
+    width: 100%;
+    height: 21.978vw;
+    border-radius: 1.293vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 9.696vw;
+}
+.img_diferenciais{
+    width: 9.696vw;
+    margin-bottom: 0.7vw;
+    border-radius: 20px;
+}
+.parag_dif{
+    color: #FFF;
+    font-size: 1.293vw;
+}
+.div_diferenciais{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+    /* OBJETIVOS: */
+.objetivos{
+    display: flex;
+    justify-content: space-between;
+}
+.img_laranja1{
+    border-radius: 0px 0.646vw 0.646vw 0px;
+    width: 22.813vw;
+}
+.img_laranja2{
+    border-radius: 0.646vw 0px 0px 0.646vw;
+    width: 22.813vw;
+}
+.h1_obj{
+    font-size: 2.586vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p_obj{
+    width: 37%;
+    font-size: 1.487vw;
+    display: flex;
+    margin-left: 2.586vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragrafos_obg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5.171vw;
+}
+.paragrafo1_obj{
+    width: 30%;
+    font-size: 1.616vw;
+    align-items: center;
+}
+.paragrafo2_obj{
+    width: 30%;
+    font-size: 1.616vw;
+    align-items: center;
+}
+
+
+.div_azul_cursos{
+    width: 100%;
+    margin-bottom: 1.293vw;
+}
+
+
+/*Visualização Smartphone*/
+@media only screen and (max-width:500px){
+    .fundo_cursos{
+        height: 55vw;
+    }
+    .barra_laranja_pesquisa{
+        height: 5.586vw;
+        padding-right: 9vw;
+    }
+    .lup{
+        width: 3vw;
+        height: 3vw;
+        margin-top: 0.2vw;
+    }
+    .buscar{
+        width: 14.403vw;
+        height: 3vw;
+        background-color: #FF6926;
+        border: 0vw;
+    }
+    .buscar::placeholder{
+        font-size: 2vw;
+    }
+    .fundo_cursos{
+        display: flex;
+    }
+    .div_branca{
+        margin-top: 8.403vw
+    }
+    .palavra_aprender{
+        font-size: 6vw;
+        padding-top: 21vw;
+    }
+    .ptt{
+        font-size: 25px;
+    }
+
+    .div_branca{
+        width: 50vw;
+        height: 18vw;
+        margin-top: 21vw
+    }
+    .O_que_você_quer_aprender{
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    .lupa2{
+        width: 5vw;
+        margin: 3vw 2vw 5vw 4vw;
+    }
+    .buscarr{
+        width: 34vw;
+        height: 4vw;
+        margin-bottom: 2vw;
+    }
+    .buscarr::placeholder{
+        color: #555;
+        font-size: 3vw;
+    }
+
+    /*bandeira*/
+    .fundo_bandeira{
+        width: 90%;
+        height: 140vw;
+        margin-bottom: 8vw;
+    }
+    .aproveitar{
+        color: #fff;
+        margin: 7.2vw 5.1vw 5.8vw 7.7vw;
+        font-size: 4.6vw;
+    }
+    .display_branca{
+        flex-direction: column;
+        align-items: center;
+    }
+    .div_brancona{
+        width: 42vw;
+        height: 32vw;
+        background-color: #fff;
+        border-radius: 2vw;
+        margin: 2.4vw;
+    }
+    .img_branca{
+        width: 17vw;
+    }
+    .paragrafo_branco{
+        font-size: 17px;
+    }
+
+    .fundo_bandeira{
+        border-radius: 4vw;
+    }
+
+
+
+    .diferenciais{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .h1_diferenciais{
+        font-size: 7.4vw;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    .colocar_displayyy{
+        flex-direction: column;
+    }
+    .p_beneficios{
+        font-size: 4vw;
+    }
+    .ComeceAq{
+        width: 50vw;
+        height: 9.6vw;
+        border-radius: 3.2vw;
+        font-size: 5vw;
+        margin-top: 2vw;
+    }
+
+    .div_azul{
+        width: 85%;
+        height: 200vw;
+        flex-direction: column;
+        border-radius: 6vw;
+    }
+    .img_diferenciais{
+        width: 28vw;
+    }
+    .parag_dif{
+        font-size: 4vw;
+    }
+    .div_diferenciais{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+            /* OBJETIVOS: */
+    .img_laranja1{
+        width: 18vw;
+        height: 20vw;
+    }
+    .img_laranja2{
+        width: 18vw;
+        height: 20vw;
+    }
+    .h1_obj{
+        font-size: 4vw;
+    }
+    .p_obj{
+        width: 54%;
+        font-size: 2.2vw;
+        margin-left: 2vw;
+    }
+
+    .paragrafos_obg{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .paragrafo1_obj{
+        width: 30%;
+        font-size: 2.6vw;
+        align-items: center;
+    }
+    .paragrafo2_obj{
+        width: 30%;
+        font-size: 2.6vw;
+        align-items: center;
+    }
 }

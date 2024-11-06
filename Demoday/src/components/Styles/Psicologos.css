@@ -11,7 +11,7 @@
     font-size: 2.5em;
     font-weight: bold;
     color: #fff;
-    padding: 200px 0 0 70px;
+    padding: 150px 0 0 70px;
 }
 
 .passo{
@@ -38,7 +38,7 @@
 
 .bordaa{
     margin-bottom: 100px;
-    margin-right: 20px;
+    margin-left: 50px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -46,8 +46,8 @@
 
 
 .borda{
-    width: 30%;
-    height: 530px;
+    width: 90%;
+    height: 500px;
     border: 1px solid;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -58,6 +58,7 @@
     transform: scale(1.05);
     cursor: pointer;
 }
+
 
 .foto{
     display: flex;
@@ -107,14 +108,6 @@
     margin: auto;
     margin-bottom: 100px;
     border-radius: 20px;
-
-}
-
-.tudo{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
 }
 
 .imagens{
@@ -139,7 +132,7 @@
     border-radius: 10px;
     width: 20%;
     height: 70px;
-    text-align: center;
+    margin-left: 45px;
     display: flex;
     align-items: center;
     justify-content: center;

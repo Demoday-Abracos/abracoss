@@ -27,7 +27,7 @@ function SobreNos() {
                 />
             </div>
             <div className="titulodev">
-                <h1>Desenvolvedores</h1>
+                <h1>Desenvolvedores:</h1>
 
             </div>
             <section className="sectchones">
@@ -35,24 +35,26 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/iarley.png'
+                            imagens='assets/images/iarley.svg'
                             titulo='Iarley Souza'
                             texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
                             texto2='Product Owner, Full-Stack'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
+                            LLink='https://github.com/IarleySouza'
 
                         /></div>
 
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/hugo.png'
+                            imagens='assets/images/hugo.svg'
                             titulo='Hugo Ribeiro'
-                            texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
+                            texto='“Juntos, estamos transformando vidas e espalhando esperança”.'
                             texto2='Scrum Master, Full-stack'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
+                            LLink='https://github.com/hugoribeirodev'
                         />
 
                     </div>
@@ -65,22 +67,24 @@ function SobreNos() {
                         <Desenvolvedores
                             imagens='assets/images/vitorH.png'
                             titulo='Vitor Hugo'
-                            texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
+                            texto='“Fico muito feliz em usar o que aprendi  para tornar o mundo um pouco melhor.”.'
                             texto2='UI/UX & Front end'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
+                            LLink='https://github.com/vitorStNo'
 
                         /></div>
 
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/hillary.png'
+                            imagens='assets/images/hillary.svg'
                             titulo='Hillary Silva'
-                            texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
+                            texto='“É gratificante fazer parte de um projeto tão significativo!”'
                             texto2='UI/UX & Front end'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
+                            LLink='https://github.com/hiasilvacode'
                         />
 
                     </div>
@@ -91,24 +95,26 @@ function SobreNos() {
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/ramalho.png'
+                            imagens='assets/images/victorR.svg'
                             titulo='Victor Ramalho'
-                            texto='"Acredito que histórias merecem ser ouvidas e que devemos abrir nossos corações para aqueles que mais precisam.".'
+                            texto='“Realmente, uma jornada cheia de desafios e aprendizados. Animado para aplicar tudo o que aprendi em futuros trabalhos.”'
                             texto2='Cloud Back-end'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
+                            LLink='https://github.com/VictorDias2'
 
                         /></div>
 
 
                     <div>
                         <Desenvolvedores
-                            imagens='assets/images/jonathan.png'
+                            imagens='assets/images/jona.svg'
                             titulo='Jonathan Silva'
-                            texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
-                            texto2='Scrum Master, Full-stack'
+                            texto='“Estou entusiasmado para aplicar todo esse conhecimento em futuros projetos e oportunidades”.'
+                            texto2='Back-end'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
+                            LLink='https://github.com/Oliveiraa17'
                         />
 
                     </div>
@@ -117,12 +123,13 @@ function SobreNos() {
 
                 <div className="ryan">
                         <Desenvolvedores
-                            imagens='assets/images/ryan.png'
+                            imagens='assets/images/ryan.svg'
                             titulo='Ryan Honorato'
-                            texto='“Gratidão por fazer parte deste projeto incrível; juntos, estamos transformando vidas e espalhando esperança”.'
-                            texto2='Scrum Master, Full-stack'
+                            texto=' “Construindo pontes e usando o conhecimento que nos aproximam e abrem caminhos para um futuro mais humano!"'
+                            texto2='Financeiro & Front-end'
                             foto1='assets/images/githublogo.svg'
                             foto2='assets/images/LinkedynLogo.svg'
+                            LLink='https://github.com/Dragaod'
                         />
 
                     </div>

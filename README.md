@@ -1,3 +1,0 @@
-
-
-# Bem-vindo ao Abraços 
