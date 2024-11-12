@@ -79,6 +79,6 @@ Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, 
 <h3 align="center">:writing_hand:	Fale conosco</h3>
 <br>
 <div align="center">
-<img src="imagens/Linktree.png" width="80px"></a>
+<img src="imagens/Linktree.svg" width="80px"></a>
 </div>
 
