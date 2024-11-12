@@ -1,15 +1,25 @@
+<div align="center">
+<img src="imagens/abraços" width="500px">
+</div>
+<br>
+<p align="center">Somos uma plataforma focada no acolimento dos refugiados e imigrantes.<p>
+
+##
+
 <p align="center">Somos uma plataforma focada no incentivo do empreendedorismo periférico no ramo alimentício.<p>
 
 ##
 
 <h3 align="center">:dart: Missão</h3>
-<div align="center"><p>Ajudar empreendedores a terem mais oportunidades de visibilidade e capacitação através da nossa plataforma.</p></div>
+<div align="center"><p>Promover um ambiente acolhedor para imigrantes e refugiados, onde possam reconstruir suas vidas no Brasil por meio do acesso a recursos essenciais, como oportunidades de emprego, educação e apoio social..</p></div>
 
 <h3 align="center">:eyes: Visão</h3>
-<div align="center"><p>Ser referência em geração de oportunidades de crescimento para pequenos e médios negócios na periferia.</p></div>
+<div align="center"><p>Ser a principal trilha para imigrantes e refugiados no Brasil, facilitando sua integração econômica, social e cultural, ao mesmo tempo em que promovemos uma sociedade mais inclusiva, acolhedora e próspera para todos..</p></div>
 
 <h3 align="center">:handshake: Valores</h3>
-<div align="center"><p>Inovação, criatividade e equidade.</p></div>
+<div align="center"><p>Inclusão & Diversidade: Valorizamos a riqueza cultural e social trazida por diferentes culturas. Acreditamos que todos, independentemente de sua origem, têm o direito de se sentir incluso e parte da sociedade.
+Crescimento: Valorizar o desenvolvimento pessoal e profissional dos imigrantes, fornecendo os recursos para que alcancem seu potencial.
+Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, oferecendo ferramentas para o sucesso e a reintegração..</p></div>
 
 ##
 
