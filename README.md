@@ -2,7 +2,7 @@
 <img src="imagens/abraços" width="500px">
 </div>
 <br>
-<p align="center">Somos uma plataforma focada no acolimento dos refugiados e imigrantes.<p>
+<p align="center">Somos uma plataforma focada no acolhimento dos refugiados e imigrantes.<p>
 
 ##
 
