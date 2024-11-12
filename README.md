@@ -64,6 +64,20 @@ Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, 
 <h3 align="center">:mechanical_arm: Nossa equipe</h3>
 <br>
 
+<h3 align="center">:mechanical_arm: Nossa equipe</h3>
+<br>
+<div align="center">
+<a href="https://www.linkedin.com/in/iarley-souza/"><img src="imagens/Frame 17.svg" width="200px"></a>
+<a href="https://www.linkedin.com/in/hugo-ribeiro-sousa/"><img src="imagens/Frame 14.svg" width="200px"></a>
+<a href="https://www.linkedin.com/in/eduolv/"><img src="imagens/Component 9 (1).png" width="200px"></a>
+<a href="https://www.linkedin.com/in/mayara-rodrigues-95389a1b3/"><img src="imagens/Component 14.png" width="200px"></a>
+<br>
+<a href="https://www.linkedin.com/in/andrepalhares011/"><img src="imagens/Component 22.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/luana-andrade-/"><img src="imagens/Component 21.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/lararufino/"><img src="imagens/Component 20.png" width="200px"></a>
+<a href="https://www.linkedin.com/in/nicolly-gabriele/"><img src="imagens/Component 19.png" width="200px"></a>
+</div>
+
 ##
 
 <h3 align="center">:writing_hand:	Fale conosco</h3>
