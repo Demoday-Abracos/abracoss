@@ -27,11 +27,6 @@ Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, 
 <br>
 <div align="center">
 <br>
- <h4>:small_orange_diamond:Tecnologias em Desenvolvimento<h4>
-   <img src="https://icongr.am/devicon/python-original.svg?size=100&color=currentColor" width="80px">
-   <img src="imagens/Machine.png" width="68px">
-   <img src="imagens/Puppeteer.png" width="60px">
-   <img src="imagens/Scrapy.png" width="80px">
   
 <h4>:small_orange_diamond: Front-end<h4>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="80px">
@@ -40,7 +35,8 @@ Esperança: Ser um farol de esperança para aqueles que buscam um novo começo, 
   <img src="https://icongr.am/devicon/react-original.svg?size=100&color=000000" width="80px">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="80px">
 
-
+   <h4>:small_orange_diamond:Tecnologias em Desenvolvimento<h4>
+   <img src="https://icongr.am/devicon/python-original.svg?size=100&color=currentColor" width="80px">
   
 <h4>:small_orange_diamond: Back-end<h4>
   <img src="https://icongr.am/devicon/java-original.svg?size=100&color=currentColor" width="80px">
