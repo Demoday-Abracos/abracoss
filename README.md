@@ -1,6 +1,6 @@
-<div align="center">
-<img src="imagens/abraços" width="500px">
-</div>
+![Easy Contability](https://user-images.githubusercontent.com/95861587/145476255-5f85d40f-fe2c-4076-93f8-e95872c9fa07.png)
+
+## 💙 Sobre
 <br>
 <p align="center">Somos uma plataforma focada no acolhimento dos refugiados e imigrantes.<p>
 
